@@ -1,0 +1,2 @@
+starred;authors;titleofpublication;editors;titlebook;publisher;pages;yearofpublication;doiorwebaddress
+1;Andrea Janes;Non-distracting, Continuous Collection of Software Development Process Data;Nalepa G., Baumeister J.;Synergies Between Knowledge Engineering and Software Engineering. Advances in Intelligent Systems and Computing, vol. 626;Springer;275--294;2018;https://doi.org/10.1007/978-3-319-64161-4\_13

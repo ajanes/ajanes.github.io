@@ -1,0 +1,24 @@
+startofproject;endofproject;projecttitle;acronym;fundingbody;website;awardholders
+1.6.02;31.10.03;Network for Agile Methodologies Experience;NAME;European Union (FP5);;Barbara Russo
+1.11.02;31.5.07;Metodologie Agili per la Produzione del Software;MAPS;Italian Ministry for University and Research (FIRB);;Giancarlo Succi
+1.11.03;31.10.07;Software District;SWD;European Union (Interreg);;Giancarlo Succi
+1.1.04;30.6.06;Consortium for studying, evaluating, and supporting the introduction of Open Source software and Open Data Standards in the Public Administration;COSPA;European Union (FP6);;Giancarlo Succi
+1.10.05;30.4.07;Experimentation of Agile Practices in concrete development Infrastructures;ASPRE;unibz;;Giancarlo Succi
+1.10.06;31.3.08;Experimental Study of the Software Development Environment;ESSDE;unibz;;Giancarlo Succi
+1.3.08;30.9.10;NESSI Open Framework – Reference Architecture;NEXOF-RA;European Union (FP7);;Alberto Sillitti
+1.12.08;30.6.10;IT needs of SMES;ITSME;unibz;;Alberto Sillitti
+1.10.09;31.3.11;Software Process Improvement for SMEs;SPISME;unibz;;Alberto Sillitti
+1.6.10;31.10.11;Open Source processes for SMEs;OSP;unibz;;Etiel Petrinja
+1.7.10;31.12.11;Web Service Certification;WSC;unibz;;Alberto Sillitti
+1.7.10;31.12.11;Software Development support with Open Source tools;SDOS;unibz;;Giancarlo Succi
+1.7.12;31.7.13;Quality In Open Source Software;QOSS;unibz;;Alberto Sillitti
+1.8.12;31.8.14;Automazione della QUAlità della produzione Software;AQUAS;Autonomous Province of Bozen-Bolzano, Italy;;Barbara Russo
+1.9.12;30.4.15;Energy aware computing;EN-ACT;European Union (Interreg);;Luis Ricardo Corral Velazquez
+1.7.13;30.6.14;QUAlity of Mobile apps;QUAM;unibz;;Alberto Sillitti
+1.9.13;31.5.15;Summer of IT Entrepreneurship;SITE;Euregio Mobility Fund;;Giancarlo Succi
+1.9.13;31.3.15;Teaching Computational thinking in high schools;TACITUS;Euregio Mobility Fund;;Ilenia Fronza
+1.9.13;31.8.15;Optimization of the execution of self-adaptive, self-healing, and self-recovery software applications for energy saving;;unibz;;Barbara Russo
+1.6.14;31.5.15;FUnctional and Non- functional properties of Virtual Machines;FUN-VM;unibz;;Barbara Russo
+1.9.15;28.2.17;Mining Users' Reviews to Support the Release Planning of Mobile Apps;RPMA;unibz;;Barbara Russo
+1.10.18;30.9.21;Software Architecture Recommendation system built on DEsign Change History;SARDECH;unibz;;Barbara Russo
+1.2.20;28.2.22;Software Rejuvenation;SORE;Finnish National Grant;;Valentina Lenarduzzi

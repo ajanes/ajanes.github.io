@@ -1,0 +1,124 @@
+#!/usr/bin/env python3
+
+from email.quoprimime import header_check
+import os
+import jinja2
+import csv
+import datetime
+
+def fix_latex(text):
+    text = text.replace("\\footnote{", " (")
+    text = text.replace("}", ")")
+    text = text.replace("\\&", "&")
+    text = text.replace("\\_", "_")
+    text = text.replace("--", "&#8211;")
+    return text 
+
+if __name__ == "__main__":
+    template_loader = jinja2.FileSystemLoader("templates")
+    template_environment = jinja2.Environment(loader=template_loader)
+    
+    events = []
+    with open("./data/06-3-organization_events.txt", "r") as f:
+        reader = csv.DictReader(f, delimiter=";", quotechar='"')
+        for row in reader:
+            expires_at = datetime.datetime.strptime(row["endofevent"], '%d.%m.%y')
+            row["endofevent_as_ISO_8601"] = expires_at.isoformat()
+            events.append(row)
+
+    projects = []
+    with open("./data/08-5-research_grants.txt", "r") as f:        
+        reader = csv.DictReader(f, delimiter=";", quotechar='"')
+        for row in reader:            
+            expires_at = datetime.datetime.strptime(row["endofproject"], '%d.%m.%y')
+            row["endofproject_as_ISO_8601"] = expires_at.isoformat()
+
+            if row["awardholders"].lower().__contains__(",") or row["awardholders"].lower().__contains__(" and "):
+                row["rolename"] = "Co-Investigator"
+                row["roletype"] = 2
+            else:
+                row["rolename"] = "Principal investigator"
+                row["roletype"] = 1
+
+            projects.append(row)
+
+    with open("./data/11-2-participation_research_projects.txt", "r") as f:        
+        reader = csv.DictReader(f, delimiter=";", quotechar='"')
+        for row in reader:            
+            expires_at = datetime.datetime.strptime(row["endofproject"], '%d.%m.%y')
+            row["endofproject_as_ISO_8601"] = expires_at.isoformat()
+            row["rolename"] = "Researcher"
+            row["roletype"] = 3
+            projects.append(row)
+
+    teaching = []
+    with open("./data/05-1-teaching_experience.txt", "r") as f:        
+        reader = csv.DictReader(f, delimiter=";", quotechar='"')        
+        for row in reader:        
+            row["course"] = fix_latex(row["course"])
+            if row["role"].lower().__contains__("l"):
+                row["islecturer"] = True
+            if row["role"].lower().__contains__("ta"):
+                row["isteachingassistant"] = True
+            teaching.append(row)
+
+    projects.sort(key=lambda x: x["endofproject_as_ISO_8601"])
+
+    publications = []
+    with open("./data/09-1-publications_book.txt", "r") as f:        
+        reader = csv.DictReader(f, delimiter=";", quotechar='"')        
+        for row in reader:          
+            row["type"] = 1
+            row["authors"] = fix_latex(row["authors"])
+            row["titleofpublication"] = fix_latex(row["titleofpublication"])
+            row["doiorwebaddress"] = fix_latex(row["doiorwebaddress"])
+            publications.append(row)
+
+    with open("./data/09-2-publications_chapter.txt", "r") as f:        
+        reader = csv.DictReader(f, delimiter=";", quotechar='"')        
+        for row in reader:             
+            row["type"] = 2
+            row["authors"] = fix_latex(row["authors"])
+            row["titleofpublication"] = fix_latex(row["titleofpublication"])
+            row["doiorwebaddress"] = fix_latex(row["doiorwebaddress"])       
+            row["pages"] = fix_latex(row["pages"])    
+            publications.append(row)
+
+    with open("./data/09-3-publications_conference.txt", "r") as f:        
+        reader = csv.DictReader(f, delimiter=";", quotechar='"')        
+        for row in reader:             
+            row["type"] = 3
+            row["authors"] = fix_latex(row["authors"])
+            row["titleofpublication"] = fix_latex(row["titleofpublication"])
+            row["doiorwebaddress"] = fix_latex(row["doiorwebaddress"])                           
+            row["dates"] = fix_latex(row["dates"])                            
+            publications.append(row)
+
+    with open("./data/09-4-publications_journal_academic.txt", "r") as f:        
+        reader = csv.DictReader(f, delimiter=";", quotechar='"')        
+        for row in reader:             
+            row["type"] = 4
+            row["authors"] = fix_latex(row["authors"])
+            row["titleofpublication"] = fix_latex(row["titleofpublication"])
+            row["doiorwebaddress"] = fix_latex(row["doiorwebaddress"])                           
+            row["pages"] = fix_latex(row["pages"])                            
+            publications.append(row)
+
+    with open("./data/09-5-publications_journal_professional.txt", "r") as f:        
+        reader = csv.DictReader(f, delimiter=";", quotechar='"')        
+        for row in reader:             
+            row["type"] = 4
+            row["authors"] = fix_latex(row["authors"])
+            row["titleofpublication"] = fix_latex(row["titleofpublication"])
+            row["doiorwebaddress"] = fix_latex(row["doiorwebaddress"])                           
+            row["pages"] = fix_latex(row["pages"])                            
+            publications.append(row)
+
+    publications.sort(key=lambda x: x["yearofpublication"])
+
+    template = template_environment.get_template("index.html.jinja")
+    outputText = template.render(events=events, projects=projects, teaching=teaching, publications=publications)
+    with open("./index.html", "w") as f:
+        f.write(outputText)
+
+    print("Done.")
