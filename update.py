@@ -13,6 +13,9 @@ def fix_latex(text):
     text = text.replace("\\&", "&")
     text = text.replace("\\_", "_")
     text = text.replace("--", "&#8211;")
+    text = text.replace("$^\lambda$", "&lambda;")
+    text = text.replace("\\'{c)", "&cacute;")
+
     return text 
 
 if __name__ == "__main__":
@@ -29,6 +32,7 @@ if __name__ == "__main__":
             roles_without_brackets = re.sub("\(.*?\)","", row["role"])
             roles = re.split(', | \& ', roles_without_brackets)
             row["roles"] = roles
+            row["event"] = fix_latex(row["event"])
             events.append(row)
 
     projects = []
@@ -37,6 +41,8 @@ if __name__ == "__main__":
         for row in reader:            
             expires_at = datetime.datetime.strptime(row["endofproject"], '%d.%m.%y')
             row["endofproject_as_ISO_8601"] = expires_at.isoformat()
+            row["fundingbody"] = fix_latex(row["fundingbody"])
+            row["fundingbody"] = re.sub("\(.*?\)","", row["fundingbody"])
             if row["awardholders"].lower().__contains__(",") or row["awardholders"].lower().__contains__(" and "):
                 row["rolename"] = "Co-Investigator"
                 row["roletype"] = 2
@@ -96,6 +102,7 @@ if __name__ == "__main__":
             row["titleofpublication"] = fix_latex(row["titleofpublication"])
             row["doiorwebaddress"] = fix_latex(row["doiorwebaddress"])                           
             row["dates"] = fix_latex(row["dates"])                            
+            row["acronym"] = fix_latex(row["acronym"])                
             publications.append(row)
 
     with open("./data/09-4-publications_journal_academic.txt", "r") as f:        

@@ -124,8 +124,8 @@
                                 {% for project in projects|reverse %}
                                     <project expires="{{project.endofproject_as_ISO_8601}}">
                                     <li> 
-                                        {{project.startofproject}}&#8211;{{project.endofproject}}:                                    
-                                        {% if project.website != "" %}<a href="{{project.website}}">{% endif %}{{project.projecttitle}}{% if project.website != "" %}</a>{% endif %}{% if project.acronym != "" %} ({{project.acronym}}) {% endif %} 
+                                        {{project.startofproject}}&#8211;{{project.endofproject}}: {{project.rolename}}, 
+                                        {% if project.website != "" %}<a href="{{project.website}}">{% endif %}<i>{{project.projecttitle}}{% if project.website != "" %}</a>{% endif %}{% if project.acronym != "" %} ({{project.acronym}}){% endif %}</i>. Funding body: {{project.fundingbody}}.
                                         {% if project.roletype == 1 %}
                                             <span class="badge text-bg-danger">{{project.rolename}}</span>            
                                         {% elif project.roletype == 2 %}                                            
