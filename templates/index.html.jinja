@@ -73,7 +73,7 @@
                                 <event expires="{{event.endofevent_as_ISO_8601}}">
                                 <li> 
                                     {{event.startofevent}}&#8211;{{event.endofevent}}:                                    
-                                    {% if event.website != "" %}<a href="{{event.website}}">{% endif %}{{event.event}}{% if event.website != "" %}</a>{% endif %}{% if event.acronym != "" %} ({{event.acronym}} 20{{event.year}}){% endif %} 
+                                    {% if event.website != "" %}<a href="{{event.website}}">{% endif %}{{event.event}}{% if event.website != "" %}</a>{% endif %}{% if event.acronym != "" %} ({{event.acronym}} 20{{event.yearofevent}}){% endif %} 
                                     {% if event.role.lower().__contains__("chair") %}
                                         <span class="badge text-bg-danger">{{event.role  | replace("\\&","&")}}</span>
                                     {% elif event.role.lower().__contains__("pc member") %}
