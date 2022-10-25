@@ -5,6 +5,7 @@ import os
 import jinja2
 import csv
 import datetime
+import re
 
 def fix_latex(text):
     text = text.replace("\\footnote{", " (")
@@ -24,6 +25,10 @@ if __name__ == "__main__":
         for row in reader:
             expires_at = datetime.datetime.strptime(row["endofevent"], '%d.%m.%y')
             row["endofevent_as_ISO_8601"] = expires_at.isoformat()
+            row["role"] = fix_latex(row["role"])
+            roles_without_brackets = re.sub("\(.*?\)","", row["role"])
+            roles = re.split(', | \& ', roles_without_brackets)
+            row["roles"] = roles
             events.append(row)
 
     projects = []
@@ -32,7 +37,6 @@ if __name__ == "__main__":
         for row in reader:            
             expires_at = datetime.datetime.strptime(row["endofproject"], '%d.%m.%y')
             row["endofproject_as_ISO_8601"] = expires_at.isoformat()
-
             if row["awardholders"].lower().__contains__(",") or row["awardholders"].lower().__contains__(" and "):
                 row["rolename"] = "Co-Investigator"
                 row["roletype"] = 2
@@ -100,6 +104,7 @@ if __name__ == "__main__":
             row["type"] = 4
             row["authors"] = fix_latex(row["authors"])
             row["titleofpublication"] = fix_latex(row["titleofpublication"])
+            row["titlejournal"] = fix_latex(row["titlejournal"])
             row["doiorwebaddress"] = fix_latex(row["doiorwebaddress"])                           
             row["pages"] = fix_latex(row["pages"])                            
             publications.append(row)
@@ -110,6 +115,7 @@ if __name__ == "__main__":
             row["type"] = 4
             row["authors"] = fix_latex(row["authors"])
             row["titleofpublication"] = fix_latex(row["titleofpublication"])
+            row["titlejournal"] = fix_latex(row["titlejournal"])            
             row["doiorwebaddress"] = fix_latex(row["doiorwebaddress"])                           
             row["pages"] = fix_latex(row["pages"])                            
             publications.append(row)

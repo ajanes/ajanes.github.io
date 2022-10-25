@@ -72,15 +72,18 @@
                             {% for event in events|reverse %}
                                 <event expires="{{event.endofevent_as_ISO_8601}}">
                                 <li> 
-                                    {{event.startofevent}}&#8211;{{event.endofevent}}:                                    
-                                    {% if event.website != "" %}<a href="{{event.website}}">{% endif %}{{event.event}}{% if event.website != "" %}</a>{% endif %}{% if event.acronym != "" %} ({{event.acronym}} 20{{event.yearofevent}}){% endif %} 
-                                    {% if event.role.lower().__contains__("chair") %}
-                                        <span class="badge text-bg-danger">{{event.role  | replace("\\&","&")}}</span>
-                                    {% elif event.role.lower().__contains__("pc member") %}
-                                        <span class="badge text-bg-primary">{{event.role}}</span>                                                             
-                                    {% else %}
-                                        <span class="badge text-bg-secondary">{{event.role}}</span>                   
-                                    {% endif %}
+                                    {{event.startofevent}}&#8211;{{event.endofevent}}: {{event.role}} at the {% if event.website != "" %}<a href="{{event.website}}">{% endif %}{{event.event}}{% if event.website != "" %}</a>{% endif %}{% if event.acronym != "" %} ({{event.acronym}} 20{{event.yearofevent}}){% endif %}
+                                    {% for role in event.roles %}
+                                        {% if role.lower().__contains__("chair") or role.lower().__contains__("organiz") %}
+                                            <span class="badge text-bg-danger">{{role}}</span>
+                                        {% endif %}
+                                        {% if role.lower().__contains__("pc member") %}
+                                            <span class="badge text-bg-primary">{{role}}</span>
+                                        {% endif %}
+                                        {% if not role.lower().__contains__("chair") and not role.lower().__contains__("organiz") and not role.lower().__contains__("pc member") %}
+                                            <span class="badge text-bg-secondary">{{role}}</span>
+                                        {% endif %}
+                                    {% endfor %}
                                 </li>
                                 </event>
                             {% endfor %}
@@ -186,9 +189,9 @@
                                     <li>
                                         {% if item.type == 1 %}<span class="badge badge-bg-book">Book</span>{% endif %}
                                         {% if item.type == 2 %}<span class="badge badge-bg-chapter">Book chapter</span>{% endif %}
-                                        {% if item.type == 3 %}<span class="badge badge-bg-conference">Conference/workshop papers</span>{% endif %}
+                                        {% if item.type == 3 %}<span class="badge badge-bg-conference">{{item.typeofcontribution}}</span>{% endif %}
                                         {% if item.type == 4 %}<span class="badge badge-bg-journal">Journal papers</span>{% endif %}
-                                        {{item.authors}} ({{item.yearofpublication}}{% if item.type == 3 %}, {{item.dates}}{% endif %}).{% if item.type == 1 or item.type == 3 %} <i>{{item.titleofpublication}}</i>{% if item.type == 3 %} [{{item.typeofcontribution}}].{% endif %}{% endif %}{% if item.type == 2 or item.type == 4 %} {{item.titleofpublication}}.{% endif %}{% if item.type == 2 %} In {{item.editors}}&nbsp;(Eds.), <i>{{item.titlebook}}</i>. (pp. {{item.pages}}){% endif %}{% if item.type == 1 %} {{item.publisher}}{% endif %}{% if item.type == 3 %} {{item.conference}} ({{item.acronym}}), {{item.location}}.{% endif %}{% if item.doiorwebaddress != "" %}{% if item.type == 4 %} <i>{{item.titlejournal}}</i> {{item.volume}}{% if item.issueornumber != "" %}({{item.issueornumber}}){% endif %}, {{item.pages}}.{% endif %} <a href="{{item.doiorwebaddress}}">{{item.doiorwebaddress}}</a>{% endif %}
+                                        {{item.authors}} ({{item.yearofpublication}}{% if item.type == 3 %}, {{item.dates}}{% endif %}).{% if item.type == 1 or item.type == 3 %} <i>{{item.titleofpublication}}</i>{% endif %}{% if item.type == 2 or item.type == 4 %} {{item.titleofpublication}}.{% endif %}{% if item.type == 2 %} In {{item.editors}} (Eds.), <i>{{item.titlebook}}</i>. (pp. {{item.pages}}).{% endif %}{% if item.type == 1 %} {{item.publisher}}{% endif %}{% if item.type == 3 %} {{item.conference}} ({{item.acronym}}), {{item.location}}.{% endif %}{% if item.doiorwebaddress != "" %}{% if item.type == 4 %} <i>{{item.titlejournal}} {{item.volume}}</i>{% if item.issueornumber != "" %}({{item.issueornumber}}){% endif %}, {{item.pages}}.{% endif %} <a href="{{item.doiorwebaddress}}">{{item.doiorwebaddress}}</a>{% endif %}
                                     </li>
                                     </publication>
                                 {% endfor %}
