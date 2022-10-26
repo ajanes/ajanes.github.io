@@ -26,7 +26,8 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#events">Conference committees</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#talks">Invited talks</a></li>
                         <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
                         <li class="nav-item"><a class="nav-link" href="#teaching">Teaching</a></li>
                         <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
@@ -61,12 +62,12 @@
                 </div>
             </div>
         </section>
-        <!-- Events -->
+        <!-- Conference committees -->
         <section class="page-section bg-light" id="events">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 class="mt-0"><i class="bi-clock fs-2 text-primary"></i> Events</h2>
+                        <h2 class="mt-0"><i class="bi-people fs-2 text-primary"></i> Conference committees</h2>
                         <hr class="divider" />
                         <div class="mb-4 text-start">
                             <p>I think that the exchange with other scientists and practitioners is crucial to ensure that my work is relevant. Therefore, I am involved in the organization of the following events:</p>
@@ -110,6 +111,29 @@
                 </div>
             </div>
         </section>
+        <!-- Invited talks -->
+        <section class="page-section bg-light" id="talks">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="mt-0"><i class="bi-megaphone fs-2 text-primary"></i> Invited talks</h2>
+                        <hr class="divider" />
+                        <div class="mb-4 text-start">
+                            <p>Here is the list of my invited talks:</p>
+                            <ul><div id="listofevents">
+                            {% for talk in talks|reverse %}
+                                <talk>
+                                <li> 
+                                    {{talk.fromto}}, {{talk.venue}}: <i>{{talk.titleofthetalk}}</i>
+                                </li>
+                                </talk>
+                            {% endfor %}
+                            </div></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>        
         <!-- Research-->
         <section class="page-section" id="research">
             <div class="container px-4 px-lg-5">

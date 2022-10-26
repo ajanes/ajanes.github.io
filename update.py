@@ -8,13 +8,13 @@ import datetime
 import re
 
 def fix_latex(text):
-    text = text.replace("\\footnote{", " (")
-    text = text.replace("}", ")")
     text = text.replace("\\&", "&")
     text = text.replace("\\_", "_")
     text = text.replace("--", "&#8211;")
     text = text.replace("$^\lambda$", "&lambda;")
-    text = text.replace("\\'{c)", "&cacute;")
+    text = text.replace("\\'{c}", "&cacute;")    
+    text = re.sub("\\\\url\{.*?\}","", text)
+    text = re.sub("\\\\footnote\{.*?\}","", text)
 
     return text 
 
@@ -129,8 +129,17 @@ if __name__ == "__main__":
 
     publications.sort(key=lambda x: x["yearofpublication"])
 
+    talks = []
+    with open("./data/11-3-invited_talks.txt", "r") as f:        
+        reader = csv.DictReader(f, delimiter=";", quotechar='"')        
+        for row in reader:             
+            row["fromto"] = fix_latex(row["fromto"])
+            row["venue"] = fix_latex(row["venue"])
+            row["titleofthetalk"] = fix_latex(row["titleofthetalk"])
+            talks.append(row)
+
     template = template_environment.get_template("index.html.jinja")
-    outputText = template.render(events=events, projects=projects, teaching=teaching, publications=publications)
+    outputText = template.render(events=events, projects=projects, teaching=teaching, publications=publications, talks=talks)
     with open("./index.html", "w") as f:
         f.write(outputText)
 
