@@ -50,8 +50,9 @@ startofevent;endofevent;event;role;acronym;yearofevent;website
 19.9.22;23.9.22;International Symposium on Empirical Software Engineering and Measurement, Helsinki, Finland;PC member (Registered Reports);ESEM;22;https://www.esem-conferences.org
 2.10.22;7.10.22;38th IEEE International Conference on Software Maintenance and Evolution, Limassol, Cyprus;PC member (New Ideas and Emerging Results and Registered Reports);ICSME;23;https://cyprusconferences.org/icsme2022/
 21.11.22;24.11.22;23rd International Conference on Product-Focused Software Process Improvement, Jyväskylä, Finland;Track co-chair (Doctoral Symposium) \& PC member;PROFES;22;https://www.jyu.fi/it/en/research/scholarly-events/profes2022
-14.6.23;16.6.23;27th International Conference on Evaluation and Assessment in Software Engineering;Track co-chair (Short Papers and Posters);EASE;23;https://conf.researchr.org/home/ease-2023
+14.6.23;16.6.23;27th International Conference on Evaluation and Assessment in Software Engineering, Oulu, Finland;Track co-chair (Short Papers and Posters);EASE;23;https://conf.researchr.org/home/ease-2023
 27.3.23;2.4.23;7th International Conference on Lean and Agile Software Development (Track on Lean and Agile Software Development at the 38th ACM/SIGAPP Symposium On Applied Computing), Tallinn, Estonia;PC member;LASD;23;https://lasd.pl
 15.7.23;15.7.23;49th Euromicro Conference on Software Engineering and Advanced Applications;Track co-chair (Emerging Computing Technologies);SEAA;23;https://www.euromicro.org/Events.php
 13.3.23;17.3.23;20th IEEE International Conference on Software Architecture, l'Aquila, Italy;PC member (Posters);ICSA;23;https://icsa-conferences.org/2023/
+14.5.23;20.5.23;4th Workshop on Gender Equality, Diversity, and Inclusion in Software Engineering colocated with the 45th International Conference on Software Engineering, Melbourne, Australia;Workshop co-chair;GE@ICSE;23;https://conf.researchr.org/home/icse-2023/ge-icse-2023
 26.3.24;29.3.24;31st International Conference on Software Analysis, Evolution and Reengineering, Rovaniemi, Finland;Track co-chair (Industrial Papers);SANER;24;https://saner2023.must.edu.mo

@@ -25,7 +25,8 @@ fromto;venue;titleofthetalk
 1.4.21;Software Developers' Thursday at the NOI Technology Park, Bolzano, Italy;locust -- the Open Source Load Testing Tool.
 12.11.21;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;Continuous Performance Testing using locust.io.
 23.11.21;NOI Techpark, Italy;Tecnologie ICT per il monitoraggio ed il coordinamento dei movimenti umani (together with David Massimo).
-6--8.9.22;INFORTE.fi Summer School, Tampere, Finland;Technology transfer and applied research in companies: pearls and pitfalls.
+16.6.22;Tampere University of Technology, Tampere, Finland;Scalability Assessment applied to Microservice Architectures.
+5--8.9.22;INFORTE.fi Summer School, Tampere, Finland;Technology transfer and applied research in companies: pearls and pitfalls.
 18.10.22;TFO Meran Franz Kafka, Meran, Italy;Zukunftsperspektiven für Wirtschaftsinformatiker.
 11.11.22;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;Scalability assessment applied to microservice architectures.
 12.11.22;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;Industry-academia collaborations: experiences and pitfalls.
