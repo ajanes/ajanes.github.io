@@ -1,58 +1,59 @@
-startofevent;endofevent;event;role;acronym;yearofevent;website
-4.12.11;6.12.11;2011 Alpine Software Engineering Workshop, Corvara, Italy;Organizing committee member;ASEW;11;
-2.12.12;4.12.12;2012 Alpine Software Engineering Workshop, Ortisei, Italy;Organizing committee member;ASEW;12;
-6.5.14;9.5.14;10th International Conference on Open Source Systems, San Jose, Costa Rica;PC member \& PhD Symposium chair;OSS;14;
-22.9.14;23.9.14;3rd International Conference on Software Engineering for Defence Applications, Rome, Italy;PC member \& Program chair;SEDA;14;
-25.5.15;29.5.15;16th International Conference on Agile Software Development, Helsinki, Finland;PC member (Estimations in the 21st Century Software Engineering);XP;15;
-26.8.15;28.8.15;41st Euromicro Conference on Software Engineering and Advanced Applications, Funchal, Madeira, Portugal;PC member (Software Value Management);SEAA;15;
-28.4.16;29.4.16;1st Joint Seminar in Empirical Software Engineering at the Free University of Bozen-Bolzano;Organizer;JESE;16;
-6.12.16;6.12.16;2016 Alpine Software Engineering Workshop: Random-Based Testing, Bolzano, Italy;Organizer;ASEW;16;
-22.4.17;26.4.17;1st International Workshop on Monitoring in Large-Scale Software Systems, L'Aquila, Italy;PC member;MOLS;17;
-18.5.17;19.5.17;2nd Joint Seminar in Empirical Software Engineering at the University of Innsbruck;Co-organizer;JESE;17;
-21.5.17;26.5.17;1st International Workshop on Microservices for Agile software development;Co-organizer;WMSA;17;
-6.7.17;6.7.17;8th Workshop on Computer Science Research meets Business, Bolzano, Italy: Data Science, How to Create added Value from Data;Organizing committee member;;17;
-3.9.17;6.9.17;1st International Conference on Lean and Agile Software Development, Prague, Czech Republic;PC member;LASD;17;
-4.9.17;7.9.17;2017 Summer School on Software Engineering, Bolzano, Italy;Organizing committee member;SESchool;17;
-21.9.17;23.9.17;3rd Joint Ontology Workshops, Episode 3: The Tyrolean Autumn of Ontology, Bozen-Bolzano, Italy;Track co-chair (Data meets Applied Ontologies);JOWO;17;
-29.11.17;1.12.17;18th International Conference on Product-Focused Software Process Improvement, Innsbruck, Austria;PC member (Full Papers) \& Session chair;PROFES;17;
-21.5.18;25.5.18;19th International Conference on Agile Software Development, Porto, Portugal;PC member (Research Papers);XP;18;
-28.8.18;31.8.18;44th Euromicro Conference on Software Engineering and Adv. Applications, Prague, Czech Republic;PC member (Monitoring Large-Scale Software Systems);SEAA;18;
-9.9.18;12.9.18;2nd International Conference on Lean and Agile Software Development, Poznań, Poland;PC member;LASD;18;
-9.9.18;12.9.18;2018 Summer School on Software Engineering, Bolzano, Italy;Organizing committee member;SESchool;18;
-23.9.18;29.9.18;34th International Conference on Software Maintenance and Evolution, Madrid, Spain;PC member (Artifacts);ICSME;18;
-28.11.18;30.11.18;19th International Conference on Product-Focused Software Process Improvement, Wolfsburg, Germany;PC member (Full Research and Industry Papers);PROFES;18;
-21.5.19;25.5.19;20th International Conference on Agile Software Development, Montréal, Canada;PC member (Research Paper);XP;19;
-8.7.19;10.7.19;12th Seminar on Advanced Techniques \& Tools for Software Evolution, Bolzano, Italy;PC member, Hackaton chair \& Session chair;SATToSE;19;
-1.9.19;4.9.19;3rd International Conference on Lean and Agile Software Development, Leipzig University, Leipzig, Germany;PC member;LASD;19;
-10.9.19;12.9.19;2019 Summer School on Software Engineering, Bolzano, Italy;Organizing committee member;SESchool;19;
-11.9.19;13.9.19;12th International Conference on the Quality of Information and Communications Tech., Ciudad Real, Spain;PC member (Quality Aspects in Software Maintenance and Comprehension);QUATIC;19;
-30.9.19;4.10.19;35th IEEE International Conference on Software Maintenance and Evolution, Cleveland, Ohio, USA;PC member (Short Papers);ICSME;19;
-27.11.19;29.11.19;20th International Conference on Product-Focused Software Process Improvement, Barcelona, Catalunya, Spain;PC member (Full Research and Industry Papers);PROFES;19;
-15.1.20;3.6.20;Reality Check: IT students meet companies, a bi-monthly event, organized together with the NOI Technology park in Bolzano, open to all bachelor, master, and PhD students, to allow companies to present themselves to students and to help students to get to know the local IT landscape, Bolzano, Italy;Organizer;;20;
-8.6.20;12.6.20;21st International Conference on Agile Software Development, Copenhagen, Denmark;PC member (On-site Research);XP;20;
-1.7.20;3.7.20;6th International School on Software Engineering, Bolzano, Italy;Organizing committee member;ISESchool;20;
-26.8.20;27.8.20;16th International Symposium on Open Collaboration, Madrid, Spain;PC member (OpenSym 2020 New Ideas and Emerging Research);OpenSym;20;
-6.9.20;9.9.20;4th International Conference on Lean and Agile Software Development, Sofia, Bulgaria;PC member;LASD;20;
-8.9.20;11.9.20;13th International Conference on the Quality of Information and Communications Technology;PC member (Human and Artificial Intelligences for Software Evolution);QUATIC;20;
-11.11.20;11.11.20;18. Anwenderkonferenz zu Softwarequalität, Test und Innovation, Bolzano, Italy;PC member;ASQT;20;
-25.11.20;27.11.20;21st Int. Conference on Product-Focused Software Process Improvement, Turin, Italy;PC member (Full Research Papers and Short Papers);PROFES;20;
-23.1.21;23.1.21;5th International Conference on Lean and Agile Software Development, online;PC member;LASD;21;
-23.5.21;24.5.21;4th International Conference on Technical Debt, online;PC member (Tool Papers);TechDebt;21;
-7.6.21;8.6.21;Summer School in HPC and AI, Bolzano, Italy;Organizing committee member;;21;
-8.9.21;11.9.21;14th International Conference on the Quality of Information and Communications Technology, online;PC member (Software Evolution);QUATIC;21;
-25.11.21;26.11.21;22nd Int. Conference on Product-Focused Software Process Improvement, Turin, Italy;PC member (Full Research Papers and Short Papers);PROFES;21;
-22.1.21;22.1.21;6th International Conference on Lean and Agile Software Development, Sofia, Bulgaria;PC member;LASD;22;
-11.11.21;11.11.21;19. Anwenderkonferenz zu Softwarequalität, Test und Innovation, Bolzano, Italy;PC member;ASQT;21;
-27.10.21;27.10.21;2nd Workshop on Data for Smart Health, Bolzano, Italy;Session chair (Industry and Public Governance);D4SH;21;
-31.8.22;2.9.22;Euromicro Conference on Software Engineering and Advanced Applications, Maspalomas, Gran Canaria, Spain;Track co-chair (Cloud Native And Dev Ops);SEAA;22;https://dsd-seaa2022.iuma.ulpgc.es
-17.5.22;18.5.22;5th International Conference on Technical Debt, Pennsylvania, USA;PC member (Tool Papers) \& Session chair (Machine Learning for Technical Debt);TechDebt;22;https://2022.techdebtconf.org
+startofevent;endofevent;event;role;acronym;yearofevent;website;report
+4.12.11;6.12.11;2011 Alpine Software Engineering Workshop, Corvara, Italy;Organizing committee member;ASEW;11;;0
+2.12.12;4.12.12;2012 Alpine Software Engineering Workshop, Ortisei, Italy;Organizing committee member;ASEW;12;;0
+6.5.14;9.5.14;10th International Conference on Open Source Systems, San Jose, Costa Rica;PC member \& PhD Symposium chair;OSS;14;;0
+22.9.14;23.9.14;3rd International Conference on Software Engineering for Defence Applications, Rome, Italy;PC member \& Program chair;SEDA;14;;0
+25.5.15;29.5.15;16th International Conference on Agile Software Development, Helsinki, Finland;PC member (Estimations in the 21st Century Software Engineering);XP;15;;0
+26.8.15;28.8.15;41st Euromicro Conference on Software Engineering and Advanced Applications, Funchal, Madeira, Portugal;PC member (Software Value Management);SEAA;15;;0
+28.4.16;29.4.16;1st Joint Seminar in Empirical Software Engineering at the Free University of Bozen-Bolzano;Organizer;JESE;16;;0
+6.12.16;6.12.16;2016 Alpine Software Engineering Workshop: Random-Based Testing, Bolzano, Italy;Organizer;ASEW;16;;0
+22.4.17;26.4.17;1st International Workshop on Monitoring in Large-Scale Software Systems, L'Aquila, Italy;PC member;MOLS;17;;0
+18.5.17;19.5.17;2nd Joint Seminar in Empirical Software Engineering at the University of Innsbruck;Co-organizer;JESE;17;;0
+21.5.17;26.5.17;1st International Workshop on Microservices for Agile software development;Co-organizer;WMSA;17;;0
+6.7.17;6.7.17;8th Workshop on Computer Science Research meets Business, Bolzano, Italy: Data Science, How to Create added Value from Data;Organizing committee member;;17;;0
+3.9.17;6.9.17;1st International Conference on Lean and Agile Software Development, Prague, Czech Republic;PC member;LASD;17;;0
+4.9.17;7.9.17;2017 Summer School on Software Engineering, Bolzano, Italy;Organizing committee member;SESchool;17;;0
+21.9.17;23.9.17;3rd Joint Ontology Workshops, Episode 3: The Tyrolean Autumn of Ontology, Bozen-Bolzano, Italy;Track co-chair (Data meets Applied Ontologies);JOWO;17;;0
+29.11.17;1.12.17;18th International Conference on Product-Focused Software Process Improvement, Innsbruck, Austria;PC member (Full Papers) \& Session chair;PROFES;17;;0
+21.5.18;25.5.18;19th International Conference on Agile Software Development, Porto, Portugal;PC member (Research Papers);XP;18;;0
+28.8.18;31.8.18;44th Euromicro Conference on Software Engineering and Adv. Applications, Prague, Czech Republic;PC member (Monitoring Large-Scale Software Systems);SEAA;18;;0
+9.9.18;12.9.18;2nd International Conference on Lean and Agile Software Development, Poznań, Poland;PC member;LASD;18;;0
+9.9.18;12.9.18;2018 Summer School on Software Engineering, Bolzano, Italy;Organizing committee member;SESchool;18;;0
+23.9.18;29.9.18;34th International Conference on Software Maintenance and Evolution, Madrid, Spain;PC member (Artifacts);ICSME;18;;0
+28.11.18;30.11.18;19th International Conference on Product-Focused Software Process Improvement, Wolfsburg, Germany;PC member (Full Research and Industry Papers);PROFES;18;;0
+21.5.19;25.5.19;20th International Conference on Agile Software Development, Montréal, Canada;PC member (Research Paper);XP;19;;0
+8.7.19;10.7.19;12th Seminar on Advanced Techniques \& Tools for Software Evolution, Bolzano, Italy;PC member, Hackaton chair \& Session chair;SATToSE;19;;0
+1.9.19;4.9.19;3rd International Conference on Lean and Agile Software Development, Leipzig University, Leipzig, Germany;PC member;LASD;19;;0
+10.9.19;12.9.19;2019 Summer School on Software Engineering, Bolzano, Italy;Organizing committee member;SESchool;19;;0
+11.9.19;13.9.19;12th International Conference on the Quality of Information and Communications Tech., Ciudad Real, Spain;PC member (Quality Aspects in Software Maintenance and Comprehension);QUATIC;19;;0
+30.9.19;4.10.19;35th IEEE International Conference on Software Maintenance and Evolution, Cleveland, Ohio, USA;PC member (Short Papers);ICSME;19;;0
+27.11.19;29.11.19;20th International Conference on Product-Focused Software Process Improvement, Barcelona, Catalunya, Spain;PC member (Full Research and Industry Papers);PROFES;19;;0
+15.1.20;3.6.20;Reality Check: IT students meet companies, a bi-monthly event, organized together with the NOI Technology park in Bolzano, open to all bachelor, master, and PhD students, to allow companies to present themselves to students and to help students to get to know the local IT landscape, Bolzano, Italy;Organizer;;20;;0
+8.6.20;12.6.20;21st International Conference on Agile Software Development, Copenhagen, Denmark;PC member (On-site Research);XP;20;;0
+1.7.20;3.7.20;6th International School on Software Engineering, Bolzano, Italy;Organizing committee member;ISESchool;20;;0
+26.8.20;27.8.20;16th International Symposium on Open Collaboration, Madrid, Spain;PC member (OpenSym 2020 New Ideas and Emerging Research);OpenSym;20;;0
+6.9.20;9.9.20;4th International Conference on Lean and Agile Software Development, Sofia, Bulgaria;PC member;LASD;20;;0
+8.9.20;11.9.20;13th International Conference on the Quality of Information and Communications Technology;PC member (Human and Artificial Intelligences for Software Evolution);QUATIC;20;;0
+11.11.20;11.11.20;18. Anwenderkonferenz zu Softwarequalität, Test und Innovation, Bolzano, Italy;PC member;ASQT;20;;0
+25.11.20;27.11.20;21st Int. Conference on Product-Focused Software Process Improvement, Turin, Italy;PC member (Full Research Papers and Short Papers);PROFES;20;;0
+23.1.21;23.1.21;5th International Conference on Lean and Agile Software Development, online;PC member;LASD;21;;0
+23.5.21;24.5.21;4th International Conference on Technical Debt, online;PC member (Tool Papers);TechDebt;21;;0
+7.6.21;8.6.21;Summer School in HPC and AI, Bolzano, Italy;Organizing committee member;;21;;0
+8.9.21;11.9.21;14th International Conference on the Quality of Information and Communications Technology, online;PC member (Software Evolution);QUATIC;21;;1
+25.11.21;26.11.21;22nd Int. Conference on Product-Focused Software Process Improvement, Turin, Italy;PC member (Full Research Papers and Short Papers);PROFES;21;;1
+11.11.21;11.11.21;19. Anwenderkonferenz zu Softwarequalität, Test und Innovation, Bolzano, Italy;PC member;ASQT;21;;1
+27.10.21;27.10.21;2nd Workshop on Data for Smart Health, Bolzano, Italy;Session chair (Industry and Public Governance);D4SH;21;;1
+22.1.22;22.1.22;6th International Conference on Lean and Agile Software Development, Sofia, Bulgaria;PC member;LASD;22;;1
+17.5.22;18.5.22;5th International Conference on Technical Debt, Pennsylvania, USA;PC member (Tool Papers) \& Session chair (Machine Learning for Technical Debt);TechDebt;22;https://2022.techdebtconf.org;1
 22.8.22;24.8.22;International Workshop on Applied Research, Technology Transfer and Knowledge Exchange in Software and Data Science, Vienna, Austria;PC member;ARTE;22;
-19.9.22;23.9.22;International Symposium on Empirical Software Engineering and Measurement, Helsinki, Finland;PC member (Registered Reports);ESEM;22;https://www.esem-conferences.org
-2.10.22;7.10.22;38th IEEE International Conference on Software Maintenance and Evolution, Limassol, Cyprus;PC member (New Ideas and Emerging Results and Registered Reports);ICSME;23;https://cyprusconferences.org/icsme2022/
-21.11.22;24.11.22;23rd International Conference on Product-Focused Software Process Improvement, Jyväskylä, Finland;Track co-chair (Doctoral Symposium) \& PC member;PROFES;22;https://www.jyu.fi/it/en/research/scholarly-events/profes2022
-14.6.23;16.6.23;27th International Conference on Evaluation and Assessment in Software Engineering, Oulu, Finland;Track co-chair (Short Papers and Posters);EASE;23;https://conf.researchr.org/home/ease-2023
-27.3.23;2.4.23;7th International Conference on Lean and Agile Software Development (Track on Lean and Agile Software Development at the 38th ACM/SIGAPP Symposium On Applied Computing), Tallinn, Estonia;PC member;LASD;23;https://lasd.pl
-15.7.23;15.7.23;49th Euromicro Conference on Software Engineering and Advanced Applications;Track co-chair (Emerging Computing Technologies);SEAA;23;https://www.euromicro.org/Events.php
-13.3.23;17.3.23;20th IEEE International Conference on Software Architecture, l'Aquila, Italy;PC member (Posters);ICSA;23;https://icsa-conferences.org/2023/
-14.5.23;20.5.23;4th Workshop on Gender Equality, Diversity, and Inclusion in Software Engineering colocated with the 45th International Conference on Software Engineering, Melbourne, Australia;Workshop co-chair;GE@ICSE;23;https://conf.researchr.org/home/icse-2023/ge-icse-2023
-26.3.24;29.3.24;31st International Conference on Software Analysis, Evolution and Reengineering, Rovaniemi, Finland;Track co-chair (Industrial Papers);SANER;24;https://saner2023.must.edu.mo
+31.8.22;2.9.22;Euromicro Conference on Software Engineering and Advanced Applications, Maspalomas, Gran Canaria, Spain;Track co-chair (Cloud Native And Dev Ops);SEAA;22;https://dsd-seaa2022.iuma.ulpgc.es;1
+19.9.22;23.9.22;International Symposium on Empirical Software Engineering and Measurement, Helsinki, Finland;PC member (Registered Reports);ESEM;22;https://www.esem-conferences.org;1
+2.10.22;7.10.22;38th IEEE International Conference on Software Maintenance and Evolution, Limassol, Cyprus;PC member (New Ideas and Emerging Results and Registered Reports);ICSME;23;https://cyprusconferences.org/icsme2022/;1
+21.11.22;24.11.22;23rd International Conference on Product-Focused Software Process Improvement, Jyväskylä, Finland;Track co-chair (Doctoral Symposium) \& PC member;PROFES;22;https://www.jyu.fi/it/en/research/scholarly-events/profes2022;0
+14.6.23;16.6.23;27th International Conference on Evaluation and Assessment in Software Engineering, Oulu, Finland;Track co-chair (Short Papers and Posters);EASE;23;https://conf.researchr.org/home/ease-2023;0
+27.3.23;2.4.23;7th International Conference on Lean and Agile Software Development (Track on Lean and Agile Software Development at the 38th ACM/SIGAPP Symposium On Applied Computing), Tallinn, Estonia;PC member;LASD;23;https://lasd.pl;0
+15.7.23;15.7.23;49th Euromicro Conference on Software Engineering and Advanced Applications;Track co-chair (Emerging Computing Technologies);SEAA;23;https://www.euromicro.org/Events.php;0
+13.3.23;17.3.23;20th IEEE International Conference on Software Architecture, l'Aquila, Italy;PC member (Posters);ICSA;23;https://icsa-conferences.org/2023/;0
+14.5.23;20.5.23;4th Workshop on Gender Equality, Diversity, and Inclusion in Software Engineering, Melbourne, Australia;Workshop co-chair;GE@ICSE;23;https://conf.researchr.org/home/icse-2023/ge-icse-2023;0
+14.5.23;15.5.23;International Conference on Technical Debt, Melbourne, Australia;PC member;TechDebt;23;https://conf.researchr.org/home/TechDebt-2023;0
+26.3.24;29.3.24;31st International Conference on Software Analysis, Evolution and Reengineering, Rovaniemi, Finland;Track co-chair (Industrial Papers);SANER;24;https://saner2023.must.edu.mo;0
