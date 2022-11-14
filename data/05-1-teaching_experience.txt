@@ -1,29 +1,29 @@
-course;role;isbsc;ismsc;isg;period;ects
-Contemporary Software Development;L, TA;;\ding{53};;19/20, 20/21, 21/22, 22/23;6
-Software Development: from the idea to the product;L;;;\ding{53};20/21;3
-Application Engineering for Business Informatics;L, TA;\ding{53};;;19/20, 20/21, 21/22;6
-Systems Engineering;L;\ding{53};;;19/20;6
-Internet and Mobile Services\footnote{Together with Panagiotis Symeonidis};L;\ding{53};;;18/19;6
-Project Management and Professional Ethics\footnote{Together with Christian Mörtl};L;\ding{53};;;18/19;3
-Software Factory;L, TA;;\ding{53};;17/18, 18/19;8
-Software Process Management;L;;\ding{53};;14/15, 15/16, 16/17;8
-Architectures of Digital Systems;L, TA;\ding{53};;;11/12, 12/13, 14/15, 15/16, 16/17;8
-Project and Team work management;L;\ding{53};;;14/15;3
-Empirical Software Measurement;TA;;\ding{53};;11/12;8
-Introduction to Management Engineering;TA;\ding{53};;;10/11;4
-Open Tools for IT Management;TA;\ding{53};;;10/11;4
-Computer Networks;TA;\ding{53};;;09/10, 10/11;4
-Requirements and Design of Software Systems;L, TA;;\ding{53};;09/10, 10/11, 13/14;8
-Technology Assessment;TA;\ding{53};;;09/10, 10/11;4
-Analysis;TA;\ding{53};;;09/10;4
-Software Quality Management;L;;\ding{53};;07/08;4
-Programming Languages;TA;\ding{53};;;07/08;4
-Software Architectures;TA;;\ding{53};;06/07, 07/08;4
-Internet Technologies II;TA;\ding{53};;;06/07, 07/08;4
-Requirements Engineering;L;;\ding{53};;05/06;4
-Laboratorio di tecnologie informatiche;L;;\ding{53};;05/06, 06/07;4
-Software per la didattica dell’informatica;L;;\ding{53};;05/06, 06/07;4
-Didattica dell’Informatica I;L;;\ding{53};;06/07;4
-Software Engineering Project;TA;\ding{53};;;04/05, 05/06;8
-Programming Project;TA;\ding{53};;;02/03, 03/04;8
-Algorithms \& Complexity;TA;\ding{53};;;02/03;4
+course;role;isbsc;ismsc;isg;period;ects;report
+Contemporary Software Development;L, TA;;\ding{53};;19/20, 20/21, 21/22, 22/23;6;1
+Software Development: from the idea to the product;L;;;\ding{53};20/21;3;0
+Application Engineering for Business Informatics;L, TA;\ding{53};;;19/20, 20/21, 21/22;6;1
+Systems Engineering;L;\ding{53};;;19/20;6;0
+Internet and Mobile Services\footnote{Together with Panagiotis Symeonidis};L;\ding{53};;;18/19;6;0
+Project Management and Professional Ethics\footnote{Together with Christian Mörtl};L;\ding{53};;;18/19;3;0
+Software Factory;L, TA;;\ding{53};;17/18, 18/19;8;0
+Software Process Management;L;;\ding{53};;14/15, 15/16, 16/17;8;0
+Architectures of Digital Systems;L, TA;\ding{53};;;11/12, 12/13, 14/15, 15/16, 16/17;8;0
+Project and Team work management;L;\ding{53};;;14/15;3;0
+Empirical Software Measurement;TA;;\ding{53};;11/12;8;0
+Introduction to Management Engineering;TA;\ding{53};;;10/11;4;0
+Open Tools for IT Management;TA;\ding{53};;;10/11;4;0
+Computer Networks;TA;\ding{53};;;09/10, 10/11;4;0
+Requirements and Design of Software Systems;L, TA;;\ding{53};;09/10, 10/11, 13/14;8;0
+Technology Assessment;TA;\ding{53};;;09/10, 10/11;4;0
+Analysis;TA;\ding{53};;;09/10;4;0
+Software Quality Management;L;;\ding{53};;07/08;4;0
+Programming Languages;TA;\ding{53};;;07/08;4;0
+Software Architectures;TA;;\ding{53};;06/07, 07/08;4;0
+Internet Technologies II;TA;\ding{53};;;06/07, 07/08;4;0
+Requirements Engineering;L;;\ding{53};;05/06;4;0
+Laboratorio di tecnologie informatiche;L;;\ding{53};;05/06, 06/07;4;0
+Software per la didattica dell’informatica;L;;\ding{53};;05/06, 06/07;4;0
+Didattica dell’Informatica I;L;;\ding{53};;06/07;4;0
+Software Engineering Project;TA;\ding{53};;;04/05, 05/06;8;0
+Programming Project;TA;\ding{53};;;02/03, 03/04;8;0
+Algorithms \& Complexity;TA;\ding{53};;;02/03;4;0

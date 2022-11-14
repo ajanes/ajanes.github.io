@@ -1,24 +1,24 @@
-grantdate;awardholders;fundingbody;projecttitle;acronym;amount;cents;startofproject;endofproject;website
-1.5.11;Andrea Janes;Commissioned research;Allineamento processi alla strategia per Miglioramento continuo processi PA;lanusPA;3957;38;1.3.11;31.1.12;
-21.7.11;Andrea Janes;Commissioned research;Risk Management and Communication on Local and Regional Level;RimaComm;3000;00;1.7.11;30.9.11;
-1.6.14;Andrea Janes;unibz;Embedded Software QUAlity;ESQUA;9000;00;1.6.14;31.5.16;
-22.5.15;Andrea Janes, Michael Felderer, Fabio Massacci;Euregio Mobility Fund\footnote{\url{http://www.europaregion.info/it/euregio-mobilitaetsfonds.asp}};Joint seminar series 'Empirical Software Engineering';JESE;7000;00;1.7.15;31.10.16;
-22.5.15;Andrea Janes, Michael Felderer, Fabio Massacci;Euregio Mobility Fund;visiting Local companiEs to chAnge the stuDents' pERception of the local IT landscape;LEADERIT;9000;00;1.7.15;31.10.16;
-22.5.16;Andrea Janes, Michael Felderer, Fabio Massacci;Euregio Mobility Fund;Joint seminar series 'Empirical Software Engineering';JESE2;7500;00;1.7.16;31.10.17;
-22.5.16;Andrea Janes, Michael Felderer, Fabio Massacci;Euregio Mobility Fund;visiting Local companiEs to chAnge the stuDents' pERception of the local IT landscape;LEADERIT2;7500;00;1.7.16;31.10.17;
-30.5.16;Andrea Janes;unibz;Value based test case prioritization and random test case generation;VBT;20000;00;1.7.16;30.4.17;
-1.7.16;Davide Taibi, Andrea Janes;unibz;Recommendation Techniques for Software Quality Improvement in Small Medium Enterprises;SQuaSME;20000;00;1.7.16;31.12.17;
-6.7.17;Andrea Janes, Michael Felderer, Fabio Massacci;Euregio Mobility Fund;Predictive modeling in software and security engineering;PROSE;10800;00;1.7.17;30.4.18;
-6.7.17;Andrea Janes, Michael Felderer, Fabio Massacci;Euregio Mobility Fund;Participation to summer schools;SUMMER;10800;00;1.7.17;30.4.18;
-31.8.17;Ricci Francesco, Andrea Janes;Commissioned research;Internet of Things for Climbers;IoTforC;5000;00;31.8.17;8.9.21;
-11.9.18;Andrea Janes;Commissioned research;Provisioning 4.0;Pro4;9400;00;11.9.18;31.12.20;
-1.1.19;Andrea Janes;European Regional Development Fund\footnote{\url{https://ec.europa.eu/regional_policy/en/funding/erdf/}};Sensors and data for sports activity analysis;SALSA;458316;25;1.1.19;30.6.22;
-1.4.19;Anton Dignös, Andrea Janes;Commissioned research;Survey on Databases in South Tyrol;SDST;10800;00;1.4.19;30.6.19;
-15.1.19;Andrea Janes;unibz;User interaction based obsolete feature identification and maintenance vs. removal cost estimation;REACT;3381;79;15.1.19;01.7.19;
-16.1.19;Panagiotis Symeonidis, Andrea Janes;Commissioned research;Recommender for TV Shows;RecTV;10000;00;16.1.19;31.5.19;
-24.1.19;Angelika Peer, Andrea Janes;Commissioned research;NOIx - Service robot demonstrator for the NOI Techpark;NOIx;39600;00;24.1.19;31.8.19;
-1.10.19;Romain Robbes, Andrea Janes;unibz;ADaptive software VERBosity;ADVERB;100000;00;1.10.19;30.9.22;
-1.7.20;Andrea Janes, Matteo Camilli;unibz;Mining user-intensive applications to support value-based engineering decisions;VAMPIRE;6450;00;1.7.20;31.12.21;
-1.1.21;Matteo Camilli, Andrea Janes;unibz;Automated Performance and Scalability Analysis of Microservices Systems;AMPERE;25000;00;1.1.21;30.6.22;
-1.2.22;Andrea Janes;Commissioned research;Development of a chatbot interface for robots;TEMI;15000;00;1.2.22;31.10.22;
-21.1.22;Barbara Russo, Andrea Janes;Commissioned research;Capture-Store-and-replay with GUI testing to define usage profiles and automate testing in a staging environment;Oberalp2021;10000;00;21.1.22;30.6.22;
+grantdate;awardholders;fundingbody;projecttitle;acronym;amount;cents;startofproject;endofproject;website;report
+1.5.11;Andrea Janes;Commissioned research;Allineamento processi alla strategia per Miglioramento continuo processi PA;lanusPA;3957;38;1.3.11;31.1.12;;0
+21.7.11;Andrea Janes;Commissioned research;Risk Management and Communication on Local and Regional Level;RimaComm;3000;00;1.7.11;30.9.11;;0
+1.6.14;Andrea Janes;unibz;Embedded Software QUAlity;ESQUA;9000;00;1.6.14;31.5.16;;0
+22.5.15;Andrea Janes, Michael Felderer, Fabio Massacci;Euregio Mobility Fund\footnote{\url{http://www.europaregion.info/it/euregio-mobilitaetsfonds.asp}};Joint seminar series 'Empirical Software Engineering';JESE;7000;00;1.7.15;31.10.16;;0
+22.5.15;Andrea Janes, Michael Felderer, Fabio Massacci;Euregio Mobility Fund;visiting Local companiEs to chAnge the stuDents' pERception of the local IT landscape;LEADERIT;9000;00;1.7.15;31.10.16;;0
+22.5.16;Andrea Janes, Michael Felderer, Fabio Massacci;Euregio Mobility Fund;Joint seminar series 'Empirical Software Engineering';JESE2;7500;00;1.7.16;31.10.17;;0
+22.5.16;Andrea Janes, Michael Felderer, Fabio Massacci;Euregio Mobility Fund;visiting Local companiEs to chAnge the stuDents' pERception of the local IT landscape;LEADERIT2;7500;00;1.7.16;31.10.17;;0
+30.5.16;Andrea Janes;unibz;Value based test case prioritization and random test case generation;VBT;20000;00;1.7.16;30.4.17;;0
+1.7.16;Davide Taibi, Andrea Janes;unibz;Recommendation Techniques for Software Quality Improvement in Small Medium Enterprises;SQuaSME;20000;00;1.7.16;31.12.17;;0
+6.7.17;Andrea Janes, Michael Felderer, Fabio Massacci;Euregio Mobility Fund;Predictive modeling in software and security engineering;PROSE;10800;00;1.7.17;30.4.18;;0
+6.7.17;Andrea Janes, Michael Felderer, Fabio Massacci;Euregio Mobility Fund;Participation to summer schools;SUMMER;10800;00;1.7.17;30.4.18;;0
+31.8.17;Ricci Francesco, Andrea Janes;Commissioned research;Internet of Things for Climbers;IoTforC;5000;00;31.8.17;8.9.21;;0
+11.9.18;Andrea Janes;Commissioned research;Provisioning 4.0;Pro4;9400;00;11.9.18;31.12.20;;0
+1.1.19;Andrea Janes;European Regional Development Fund\footnote{\url{https://ec.europa.eu/regional_policy/en/funding/erdf/}};Sensors and data for sports activity analysis;SALSA;458316;25;1.1.19;30.6.22;;1
+1.4.19;Anton Dignös, Andrea Janes;Commissioned research;Survey on Databases in South Tyrol;SDST;10800;00;1.4.19;30.6.19;;0
+15.1.19;Andrea Janes;unibz;User interaction based obsolete feature identification and maintenance vs. removal cost estimation;REACT;3381;79;15.1.19;01.7.19;;0
+16.1.19;Panagiotis Symeonidis, Andrea Janes;Commissioned research;Recommender for TV Shows;RecTV;10000;00;16.1.19;31.5.19;;0
+24.1.19;Angelika Peer, Andrea Janes;Commissioned research;NOIx - Service robot demonstrator for the NOI Techpark;NOIx;39600;00;24.1.19;31.8.19;;0
+1.10.19;Romain Robbes, Andrea Janes;unibz;ADaptive software VERBosity;ADVERB;100000;00;1.10.19;30.9.22;;1
+1.7.20;Andrea Janes, Matteo Camilli;unibz;Mining user-intensive applications to support value-based engineering decisions;VAMPIRE;6450;00;1.7.20;31.12.21;;1
+1.1.21;Matteo Camilli, Andrea Janes;unibz;Automated Performance and Scalability Analysis of Microservices Systems;AMPERE;25000;00;1.1.21;30.6.22;;1
+1.2.22;Andrea Janes;Commissioned research;Development of a chatbot interface for robots;TEMI;15000;00;1.2.22;31.10.22;;1
+21.1.22;Barbara Russo, Andrea Janes;Commissioned research;Capture-Store-and-replay with GUI testing to define usage profiles and automate testing in a staging environment;Oberalp2021;10000;00;21.1.22;30.6.22;;1
