@@ -56,4 +56,6 @@ startofevent;endofevent;event;role;acronym;yearofevent;website;report
 13.3.23;17.3.23;20th IEEE International Conference on Software Architecture, l'Aquila, Italy;PC member (Posters);ICSA;23;https://icsa-conferences.org/2023/;0
 14.5.23;20.5.23;4th Workshop on Gender Equality, Diversity, and Inclusion in Software Engineering, Melbourne, Australia;Workshop co-chair;GE@ICSE;23;https://conf.researchr.org/home/icse-2023/ge-icse-2023;0
 14.5.23;15.5.23;International Conference on Technical Debt, Melbourne, Australia;PC member;TechDebt;23;https://conf.researchr.org/home/TechDebt-2023;0
+11.9.23;13.9.23;16th International Conference on the Quality of Information and Communications Technology;PC member \& Journal First and Special Issue chair;QUATIC;23;;0
+20.11.23;23.11.23;24rd International Conference on Product-Focused Software Process Improvement, Dornbirn, Austria;Program co-chair;PROFES;23;;0
 26.3.24;29.3.24;31st International Conference on Software Analysis, Evolution and Reengineering, Rovaniemi, Finland;Track co-chair (Industrial Papers);SANER;24;https://saner2023.must.edu.mo;0
