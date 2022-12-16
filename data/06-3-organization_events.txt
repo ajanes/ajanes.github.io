@@ -53,9 +53,9 @@ startofevent;endofevent;event;role;acronym;yearofevent;website;report
 14.6.23;16.6.23;27th International Conference on Evaluation and Assessment in Software Engineering, Oulu, Finland;Track co-chair (Short Papers and Posters);EASE;23;https://conf.researchr.org/home/ease-2023;0
 27.3.23;2.4.23;7th International Conference on Lean and Agile Software Development (Track on Lean and Agile Software Development at the 38th ACM/SIGAPP Symposium On Applied Computing), Tallinn, Estonia;PC member;LASD;23;https://lasd.pl;0
 15.7.23;15.7.23;49th Euromicro Conference on Software Engineering and Advanced Applications;Track co-chair (Emerging Computing Technologies);SEAA;23;https://www.euromicro.org/Events.php;0
-13.3.23;17.3.23;20th IEEE International Conference on Software Architecture, l'Aquila, Italy;PC member (Posters);ICSA;23;https://icsa-conferences.org/2023/;0
+13.3.23;17.3.23;20th IEEE International Conference on Software Architecture, l'Aquila, Italy;PC member (Poster track);ICSA;23;https://icsa-conferences.org/2023/;0
 14.5.23;20.5.23;4th Workshop on Gender Equality, Diversity, and Inclusion in Software Engineering, Melbourne, Australia;Workshop co-chair;GE@ICSE;23;https://conf.researchr.org/home/icse-2023/ge-icse-2023;0
 14.5.23;15.5.23;International Conference on Technical Debt, Melbourne, Australia;PC member;TechDebt;23;https://conf.researchr.org/home/TechDebt-2023;0
-11.9.23;13.9.23;16th International Conference on the Quality of Information and Communications Technology;PC member \& Journal First and Special Issue chair;QUATIC;23;;0
+11.9.23;13.9.23;16th International Conference on the Quality of Information and Communications Technology;PC member \& Track co-chair (Journal First and Special Issue chair);QUATIC;23;;0
 20.11.23;23.11.23;24rd International Conference on Product-Focused Software Process Improvement, Dornbirn, Austria;Program co-chair;PROFES;23;;0
 26.3.24;29.3.24;31st International Conference on Software Analysis, Evolution and Reengineering, Rovaniemi, Finland;Track co-chair (Industrial Papers);SANER;24;https://saner2023.must.edu.mo;0
