@@ -109,11 +109,11 @@ hr.divider-light {
 }
 
 .expired_event {
-  color: darkgray;
+  color: rgb(128, 128, 128);
 }
 
 .expired_event a {
-  color: darkgray;
+  color: rgb(128, 128, 128);
 }
 
 .expired_event .badge {

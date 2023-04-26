@@ -1,32 +1,33 @@
-fromto;venue;titleofthetalk;report
-3.3.06;IT Security Day, Bolzano, Italy;Best Practices der sicheren Programmierung mit .NET.;0
-19.6.09;University of Madrid, Spain;Research topics of the Software Engineering research group at the Faculty of Computer Science and the European Master on Software Engineering in Bolzano (Italy), Madrid (Spain) and Oulu (Finland).;0
-21.11.12;IT \& Business Forum, Bolzano, Italy;Intelligente mobilität: Touch design in mobile applications.;0
-16--21.6.13;EURAC Junior Science Camp, Radein, Italy;Tutorial on the construction and programming of a Lego Mindstorm Robot together with 20 high school students.;0
-8.4.13;TFO Meran Franz Kafka, Meran, Italy;Software Projektmanagement Highlights.;0
-1.4.14;OBJEKTspektrum Information Days, Stuttgart, Germany;Dark Agile Manifesto: Auf die Ergebnisse kommt es an.;0
-2.4.14;OBJEKTspektrum Information Days, Darmstadt, Germany;Dark Agile Manifesto: Auf die Ergebnisse kommt es an.;0
-3.4.14;OBJEKTspektrum Information Days, Köln, Germany;Dark Agile Manifesto: Auf die Ergebnisse kommt es an.;0
-17.2.15;Blekinge Institute of Technology, Blekinge, Sweden;Non-invasive Software Analytics.;0
-21.11.17;Software Craftsmanship South Tyrol, Bolzano, Italy;Elixir, the hipster language (together with Philip Giuliani and Daniel Morandini).;0
-18.9.18;Tampere University of Technology, Tampere, Finland;Non-distracting, Continuous Collection of Software Development Process Data.;0
-9.11.18;TFO Meran Franz Kafka, Meran, Italy;The faculty of Computer Science of the Free University of Bozen-Bolzano about study opportunities in the area of computer science in Bolzano.;0
-16--17.11.18;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;The REUSE Initiative.;0
-16--17.11.18;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;Elixir, the hipster language.;0
-10.12.18;Ski Safety Innovation Summit\footnote{\url{https://www.whataventure.com/event/ski-safety-innovation-summit/2018}}, Val Gardena, Italy;Data, algorithms and models for estimating the risk of injury in ski resorts.;0
-6.7.19;ASTAT, Bolzano, Italy;Table and Graph Design (together with Ilenia Fronza).;0
-15--16.11.19;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;API fluency.;0
-15--16.11.19;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;Raising the Developer Awareness of Critical Code (together with Michael Mairegger).;0
-15--16.11.19;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;Pepper, a robot to welcome guests at the NOI technology park (together with François Tronche-Macaire).;0
-15--16.11.19;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;Personas-Driven Approach to Test Case Generation (together with Riccardo Felluga).;0
-12.12.19;Software Developers' Thursday at the NOI Technology Park, Bolzano, Italy;Licensing with REUSE (together with Peter Moser).;0
-14.11.20;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;One year with Pepper (together with Johannes Brunner).;0
-26.10.20;TFO Meran Franz Kafka, Meran, Italy;Zukunftschancen mit Wirtschaftsinformatik (future opportunities with business informatics).;0
-1.4.21;Software Developers' Thursday at the NOI Technology Park, Bolzano, Italy;locust -- the Open Source Load Testing Tool.;0
-12.11.21;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;Continuous Performance Testing using locust.io.;1
-23.11.21;NOI Techpark, Italy;Tecnologie ICT per il monitoraggio ed il coordinamento dei movimenti umani (together with David Massimo).;1
-16.6.22;Tampere University of Technology, Tampere, Finland;Scalability Assessment applied to Microservice Architectures.;1
-5--8.9.22;INFORTE.fi Summer School, Tampere, Finland;Technology transfer and applied research in companies: pearls and pitfalls.;1
-18.10.22;TFO Meran Franz Kafka, Meran, Italy;Zukunftsperspektiven für Wirtschaftsinformatiker.;1
-11.11.22;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;Scalability assessment applied to microservice architectures.;0
-12.11.22;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;Industry-academia collaborations: experiences and pitfalls.;0
+topic;fromto;venue;titleofthetalk;report
+technologytransfer;3.3.06;IT Security Day, Bolzano, Italy;Best Practices der sicheren Programmierung mit .NET;0
+research;19.6.09;University of Madrid, Spain;Research topics of the Software Engineering research group at the Faculty of Computer Science and the European Master on Software Engineering in Bolzano (Italy), Madrid (Spain) and Oulu (Finland);0
+technologytransfer;21.11.12;IT \& Business Forum, Bolzano, Italy;Intelligente mobilität: Touch design in mobile applications;0
+publicengagement;16--21.6.13;EURAC Junior Science Camp, Radein, Italy;Tutorial on the construction and programming of a Lego Mindstorm Robot together with 20 high school students;0
+publicengagement;8.4.13;TFO Meran Franz Kafka, Meran, Italy;Software Projektmanagement Highlights;0
+research;8.7.13;CASE Summer School, Bolzano, Italy;Lean Software Engineering;0
+research;1.4.14;OBJEKTspektrum Information Days, Stuttgart, Germany;Dark Agile Manifesto: Auf die Ergebnisse kommt es an;0
+research;2.4.14;OBJEKTspektrum Information Days, Darmstadt, Germany;Dark Agile Manifesto: Auf die Ergebnisse kommt es an;0
+research;3.4.14;OBJEKTspektrum Information Days, Köln, Germany;Dark Agile Manifesto: Auf die Ergebnisse kommt es an;0
+research;17.2.15;Blekinge Institute of Technology, Blekinge, Sweden;Non-invasive Software Analytics;0
+publicengagement;21.11.17;Software Craftsmanship South Tyrol, Bolzano, Italy;Elixir, the hipster language (together with Philip Giuliani and Daniel Morandini);0
+research;18.9.18;Tampere University of Technology, Tampere, Finland;Non-distracting, Continuous Collection of Software Development Process Data;0
+publicengagement;9.11.18;TFO Meran Franz Kafka, Meran, Italy;The faculty of Computer Science of the Free University of Bozen-Bolzano about study opportunities in the area of computer science in Bolzano;0
+research;16--17.11.18;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;The REUSE Initiative;0
+research;16--17.11.18;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;Elixir, the hipster language;0
+publicengagement;10.12.18;Ski Safety Innovation Summit\footnote{\url{https://www.whataventure.com/event/ski-safety-innovation-summit/2018}}, Val Gardena, Italy;Data, algorithms and models for estimating the risk of injury in ski resorts;0
+technologytransfer;6.7.19;ASTAT, Bolzano, Italy;Table and Graph Design (together with Ilenia Fronza);0
+research;15--16.11.19;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;API fluency;0
+research;15--16.11.19;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;Raising the Developer Awareness of Critical Code (together with Michael Mairegger);0
+publicengagement;15--16.11.19;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;Pepper, a robot to welcome guests at the NOI technology park (together with François Tronche-Macaire);0
+research;15--16.11.19;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;Personas-Driven Approach to Test Case Generation (together with Riccardo Felluga);0
+research;12.12.19;Software Developers' Thursday at the NOI Technology Park, Bolzano, Italy;Licensing with REUSE (together with Peter Moser);0
+publicengagement;14.11.20;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;One year with Pepper (together with Johannes Brunner);0
+publicengagement;26.10.20;TFO Meran Franz Kafka, Meran, Italy;Zukunftschancen mit Wirtschaftsinformatik (future opportunities with business informatics);0
+research;1.4.21;Software Developers' Thursday at the NOI Technology Park, Bolzano, Italy;locust -- the Open Source Load Testing Tool;0
+research;12.11.21;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;Continuous Performance Testing using locust.io;1
+research;23.11.21;NOI Techpark, Italy;Tecnologie ICT per il monitoraggio ed il coordinamento dei movimenti umani (together with David Massimo);1
+research;16.6.22;Tampere University of Technology, Tampere, Finland;Scalability Assessment applied to Microservice Architectures;1
+research;5--8.9.22;Tampere University, Tampere, Finland;Technology transfer and applied research in companies: pearls and pitfalls;1
+publicengagement;18.10.22;TFO Meran Franz Kafka, Meran, Italy;Zukunftsperspektiven für Wirtschaftsinformatiker;1
+research;11.11.22;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;Scalability assessment applied to microservice architectures;1
+technologytransfer;12.11.22;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;Industry-academia collaborations: experiences and pitfalls;1

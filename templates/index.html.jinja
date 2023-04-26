@@ -26,8 +26,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#events">Conference&nbsp;committees</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#talks">Invited&nbsp;talks</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
                         <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
                         <li class="nav-item"><a class="nav-link" href="#teaching">Teaching</a></li>
                         <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
@@ -44,6 +43,8 @@
                         <h3 class="mt-3">Mag. Dr. Andrea Janes</h3>
                         <p class="mt-0 mb-0 text-secondary">Hochschullehrer (Senior Lecturer and Researcher)</p>
                         <p class="mt-0 text-secondary"><a href="https://www.fhv.at/en/">FHV Vorarlberg University of Applied Sciences</a></p>
+                        <p class="mt-0 mb-0 text-secondary">Adjunct Professor</p>
+                        <p class="mt-0 text-secondary"><a href="https://www.oulu.fi/en/university/faculties-and-units/faculty-information-technology-and-electrical-engineering/empirical-software-engineering-software-systems-and-services">University of Oulu</a></p>
                         <!--http://rot13.florianbersier.com-->
                         <span id="obf"><script>document.getElementById("obf").innerHTML="<n uers=\"znvygb:naqern.wnarf@sui.ng\" gnetrg=\"_oynax\"><v pynff='ov-rairybcr-cncre sf-2 grkg-cevznel'></v></n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});</script>
                         <noscript><span style="unicode-bidi:bidi-override;direction:rtl;">ta.vhf@senaj.aerdna</span></noscript></span>
@@ -56,18 +57,18 @@
                         <h3 class="mt-0"> <i class="bi-info-circle fs-2 text-primary"></i> About me</h3>
                         <p>Andrea Janes is a senior lecturer and researcher at the FHV Vorarlberg University of Applied Sciences in Dornbirn, Austria. Previously, he was a researcher at the Free University of Bolzano at the Faculty of Computer Science and a member of the Smart Data Factory, a technology transfer group within the faculty, where he acquired and led several research projects and collaborations with industry.</p>
                         <p>He received the master's degree in computer science from the Technical University of Vienna, Austria and the doctorate in computer science (with distinction) from the University of Klagenfurt (Austria). In 2020, he received the habilitation as associate professor in Italy in the field of <i>Sistemi di elaborazione delle informazioni (09/H1),</i> i.e., Information processing systems; in 2021, the habilitation in the field of <i>Informatica (01/B1),</i> i.e., Computer Science.</p>
-                        <p>He is <u>particularly intersted</u> in Lean and Agile approaches to software engineering, Value-based Software Engineering, Empirical Software Engineering, and Software Testing.</p>                        
+                        <p>He is particularly interested in Lean and Agile approaches to software engineering, Value-based Software Engineering, Empirical Software Engineering, and Software Testing.</p>                        
                         <p><a class="btn btn-primary btn-xl" href="./cv.pdf">Download CV</a></p>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Conference committees -->
+        <!-- Events -->
         <section class="page-section bg-light" id="events">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 class="mt-0"><i class="bi-people fs-2 text-primary"></i> Conference committees</h2>
+                        <h2 class="mt-0"><i class="bi-people fs-2 text-primary"></i> Events</h2>
                         <hr class="divider" />
                         <div class="mb-4 text-start">
                             <p>I think that the exchange with other scientists and practitioners is crucial to ensure that my work is relevant. Therefore, I am involved in the organization of the following events:</p>
@@ -111,29 +112,6 @@
                 </div>
             </div>
         </section>
-        <!-- Invited talks -->
-        <section class="page-section bg-light" id="talks">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 text-center">
-                        <h2 class="mt-0"><i class="bi-megaphone fs-2 text-primary"></i> Invited talks</h2>
-                        <hr class="divider" />
-                        <div class="mb-4 text-start">
-                            <p>Here is the list of my invited talks:</p>
-                            <ul><div id="listofevents">
-                            {% for talk in talks|reverse %}
-                                <talk>
-                                <li> 
-                                    {{talk.fromto}}, {{talk.venue}}: <i>{{talk.titleofthetalk}}</i>
-                                </li>
-                                </talk>
-                            {% endfor %}
-                            </div></ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>        
         <!-- Research-->
         <section class="page-section" id="research">
             <div class="container px-4 px-lg-5">
@@ -144,7 +122,6 @@
                         <div class="mb-4 text-start">
                             <p>I begin with the first sentence of the <a href="https://isern.iese.de/isern-manifesto/">ISERN manifesto</a>: "As a community, we have begun to recognize that software cannot be produced with a standard technology, but needs to be developed with technologies <u>tailored to the goals and characteristics</u> of particular projects. <u>Consequently, software engineering research needs to be performed in an experimental context</u> that allows us to observe and experiment with the technologies in use, understand their weaknesses and strengths, tailor the technologies for the goals and characteristics of particular projects, and package them together with empirically gained experience to enhance their reuse potential in future projects."</p>
                             <p>It is because I am convinced that software solutions have to be tailored to the goals and characteristics of the particular project, that throughout my studies, my interests were not only in computer science&mdash;in the sense of constructing a solution&mdash;but also in the business side: the trade-off between solving a problem and the costs of solving it. I always wanted to see the final use or the benefit of a software solution in its target context. <u>This combination, in German speaking countries called "Wirtschaftsinformatik", is a discipline between technical and social sciences. This interest influenced the choice of my master studies, the choice of my doctorate, and also my work in empirical software engineering afterwards.</u></p>
-                            <p>As a consequence, I am strongly interested in the application of software engineering research that helps organizations to achieve their goals efficiently. I see that particularly small and medium software organizations neglect to measure and reflect how their users interact with their products or how developers construct and maintain products. I believe that measuring and helping to measure usage and construction processes can help organizations to gain substantial benefits.</p>
                             <p>This is the list of research projects I participated to:</p>
                             <ul><div id="listofprojects">
                                 {% for project in projects|reverse %}
@@ -208,7 +185,7 @@
                         <h2 class="mt-0"><i class="bi-file-earmark-text fs-2 text-primary"></i> Publications</h2>
                         <hr class="divider" />
                         <div class="mb-4 text-start">
-                            <p>I am eager to document my findings and to discuss them in the research community. Here is the list of my current publications. Please, have a look at my page on <a href="https://scholar.google.com/citations?user=8lYoEEQAAAAJ">Google Scholar</a>, <a href="https://dblp.org/pid/04/2902">DPLB</a>, or <a href="https://www.scopus.com/authid/detail.uri?authorId=7003421075">Scopus</a>. Here is the list of my current pubblications:</p>
+                            <p>I am eager to document my findings and to discuss them in the research community. Here is the list of my current publications. Please, have a look at my page on <a href="https://scholar.google.com/citations?user=8lYoEEQAAAAJ">Google Scholar</a>, <a href="https://dblp.org/pid/04/2902">DPLB</a>, or <a href="https://www.scopus.com/authid/detail.uri?authorId=7003421075">Scopus</a>.</p>
                             <ol><div id="listofpublications">
                                 {% for item in publications|reverse %}
                                     <publication>
@@ -216,7 +193,7 @@
                                         {% if item.type == 1 %}<span class="badge badge-bg-book">Book</span>{% endif %}
                                         {% if item.type == 2 %}<span class="badge badge-bg-chapter">Book chapter</span>{% endif %}
                                         {% if item.type == 3 %}<span class="badge badge-bg-conference">{{item.typeofcontribution}}</span>{% endif %}
-                                        {% if item.type == 4 %}<span class="badge badge-bg-journal">Journal papers</span>{% endif %}
+                                        {% if item.type == 4 %}<span class="badge badge-bg-journal">Journal paper</span>{% endif %}
                                         {{item.authors}} ({{item.yearofpublication}}{% if item.type == 3 %}, {{item.dates}}{% endif %}).{% if item.type == 1 or item.type == 3 %} <i>{{item.titleofpublication}}</i>{% endif %}{% if item.type == 2 or item.type == 4 %} {{item.titleofpublication}}.{% endif %}{% if item.type == 2 %} In {{item.editors}} (Eds.), <i>{{item.titlebook}}</i>. (pp. {{item.pages}}).{% endif %}{% if item.type == 1 %} {{item.publisher}}{% endif %}{% if item.type == 3 %} {{item.conference}} ({{item.acronym}}), {{item.location}}.{% endif %}{% if item.type == 4 %} <i>{{item.titlejournal}} {{item.volume}}</i>{% if item.issueornumber != "" %}({{item.issueornumber}}){% endif %}, {{item.pages}}.{% endif %}{% if item.doiorwebaddress != "" %} <a href="{{item.doiorwebaddress}}">{{item.doiorwebaddress}}</a>{% endif %}
                                     </li>
                                     </publication>

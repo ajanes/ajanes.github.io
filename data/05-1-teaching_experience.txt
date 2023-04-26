@@ -1,29 +1,37 @@
-course;role;isbsc;ismsc;isg;period;ects;report
-Contemporary Software Development;L, TA;;\ding{53};;19/20, 20/21, 21/22, 22/23;6;1
-Software Development: from the idea to the product;L;;;\ding{53};20/21;3;0
-Application Engineering for Business Informatics;L, TA;\ding{53};;;19/20, 20/21, 21/22;6;1
-Systems Engineering;L;\ding{53};;;19/20;6;0
-Internet and Mobile Services\footnote{Together with Panagiotis Symeonidis};L;\ding{53};;;18/19;6;0
-Project Management and Professional Ethics\footnote{Together with Christian Mörtl};L;\ding{53};;;18/19;3;0
-Software Factory;L, TA;;\ding{53};;17/18, 18/19;8;0
-Software Process Management;L;;\ding{53};;14/15, 15/16, 16/17;8;0
-Architectures of Digital Systems;L, TA;\ding{53};;;11/12, 12/13, 14/15, 15/16, 16/17;8;0
-Project and Team work management;L;\ding{53};;;14/15;3;0
-Empirical Software Measurement;TA;;\ding{53};;11/12;8;0
-Introduction to Management Engineering;TA;\ding{53};;;10/11;4;0
-Open Tools for IT Management;TA;\ding{53};;;10/11;4;0
-Computer Networks;TA;\ding{53};;;09/10, 10/11;4;0
-Requirements and Design of Software Systems;L, TA;;\ding{53};;09/10, 10/11, 13/14;8;0
-Technology Assessment;TA;\ding{53};;;09/10, 10/11;4;0
-Analysis;TA;\ding{53};;;09/10;4;0
-Software Quality Management;L;;\ding{53};;07/08;4;0
-Programming Languages;TA;\ding{53};;;07/08;4;0
-Software Architectures;TA;;\ding{53};;06/07, 07/08;4;0
-Internet Technologies II;TA;\ding{53};;;06/07, 07/08;4;0
-Requirements Engineering;L;;\ding{53};;05/06;4;0
-Laboratorio di tecnologie informatiche;L;;\ding{53};;05/06, 06/07;4;0
-Software per la didattica dell’informatica;L;;\ding{53};;05/06, 06/07;4;0
-Didattica dell’Informatica I;L;;\ding{53};;06/07;4;0
-Software Engineering Project;TA;\ding{53};;;04/05, 05/06;8;0
-Programming Project;TA;\ding{53};;;02/03, 03/04;8;0
-Algorithms \& Complexity;TA;\ding{53};;;02/03;4;0
+organization;course;role;isbsc;ismsc;isg;period;ects;state;isse;issec;isprac;isdidac
+fhv;Software Engineering;L;\ding{53};;;'23/24;8;1;1;;;
+fhv;Software processes and quality\footnote{In German: \textit{Softwareprozesse und -qualität}};L;\ding{53};;;'23/24;4;1;1;;;
+uibk\footnote{University of Innsbruck, Austria};Methods of Software Quality Assurance;L;\ding{53};;;'22/23;3;2;1;;;
+fhv;System architectures\footnote{In German: \textit{Systemarchitekturen}};L;\ding{53};;;'22/23;5;2;1;1;;
+fhv;Enterprise applications\footnote{In German: \textit{Enterprise Applikationen}};TA, C;\ding{53};;;'22/23;10;2;;;;
+fhv;Software processes\footnote{In German: \textit{Softwareprozesse}};L;;\ding{53};;'22/23;5;2;1;;;
+fhv;Architectures and Security in Distributed Systems\footnote{In German: \textit{Architekturen und Sicherheit in verteilten Systemen}, taught together with Armin Simma};L;;\ding{53};;'22/23;3;2;;1;1;
+fhv;Parallelization and Concurrent Programming\footnote{In German: \textit{Parallelisierung und Concurrent Programmierung}};L;;\ding{53};;'22/23;4;2;;;1;
+unibz;Contemporary Software Development\footnote{In 2022/23, taught as an external lecturer at unibz};L, TA;;\ding{53};;'19/20--'22/23;6;3;;;1;
+unibz;Software Development: from the idea to the product\footnote{Taught as a course in the \textit{Studium Generale}, an interdisciplinary study programme available to the general public. See \url{https://www.unibz.it/en/faculties/further-courses/studium-generale/}.};L;;;\ding{53};'20/21;3;3;;;;
+unibz;Application Engineering for Business Informatics;L, TA;\ding{53};;;'19/20--'21/22;6;3;1;;;
+unibz;Systems Engineering;L;\ding{53};;;'19/20;6;3;1;;1;
+unibz;Internet and Mobile Services\footnote{Taught together with Panagiotis Symeonidis};L;\ding{53};;;'18/19;6;3;1;1;1;
+unibz;Project Management and Professional Ethics\footnote{Taught together with Christian Mörtl};L;\ding{53};;;'18/19;3;3;1;;;
+unibz;Software Factory;L, TA;;\ding{53};;'17/18, '18/19;8;3;1;;1;
+unibz;Software Process Management;L;;\ding{53};;'14/15--'16/17;8;3;1;;;
+unibz;Architectures of Digital Systems;L, TA;\ding{53};;;'11/12, '12/13, '14/15--'16/17;8;3;1;;;
+unibz;Project and Team work management\footnote{Taught together with Ilenia Fronza};L;\ding{53};;;'14/15;3;3;1;;;
+unibz;Empirical Software Measurement;TA;;\ding{53};;'11/12;8;3;;;;
+unibz;Introduction to Management Engineering;TA;\ding{53};;;'10/11;4;3;;;;
+unibz;Open Tools for IT Management;TA;\ding{53};;;'10/11;4;3;;;;
+unibz;Computer Networks;TA;\ding{53};;;'09/10, '10/11;4;3;;;;
+unibz;Requirements and Design of Software Systems;L, TA;;\ding{53};;'09/10, '10/11, '13/14;8;3;1;1;;
+unibz;Technology Assessment;TA;\ding{53};;;'09/10, '10/11;4;3;;;;
+unibz;Analysis;TA;\ding{53};;;'09/10;4;3;;;;
+unibz;Software Quality Management;L;;\ding{53};;'07/08;4;3;1;1;;
+unibz;Programming Languages;TA;\ding{53};;;'07/08;4;3;;;;
+unibz;Software Architectures;TA;;\ding{53};;'06/07, '07/08;4;3;;;;
+unibz;Internet Technologies II;TA;\ding{53};;;'06/07, '07/08;4;3;;;;
+unibz;Requirements Engineering;L;;\ding{53};;'05/06;4;3;1;;;
+unibz;Information technology laboratory\footnote{In Italian: \textit{Laboratorio di tecnologie informatiche}};L;;\ding{53};;'05/06, '06/07;4;3;;;;1
+unibz;Software for teaching computer science\footnote{In Italian: \textit{Software per la didattica dell’informatica}};L;;\ding{53};;'05/06, '06/07;4;3;;;;1
+unibz;Didactics of Computer Science I\footnote{In Italian: \textit{Didattica dell’Informatica I}};L;;\ding{53};;'06/07;4;3;;;;1
+unibz;Software Engineering Project;TA;\ding{53};;;'04/05, '05/06;8;3;;;;
+unibz;Programming Project;TA;\ding{53};;;'02/03, '03/04;8;3;;;;
+unibz;Algorithms \& Complexity;TA;\ding{53};;;'02/03;4;3;;;;
