@@ -53,14 +53,17 @@ startofevent;endofevent;event;role;acronym;yearofevent;website;state
 21.11.22;24.11.22;23rd International Conference on Product-Focused Software Process Improvement, Jyväskylä, Finland;Track co-\ul{chair} (Doctoral Symposium) \& PC member;PROFES;22;https://www.jyu.fi/it/en/research/scholarly-events/profes2022;3
 13.3.23;17.3.23;20th IEEE International Conference on Software Architecture, l'Aquila, Italy;PC member (Poster track);ICSA;23;https://icsa-conferences.org/2023/;3
 27.3.23;2.4.23;7th International Conference on Lean and Agile Software Development (Track on Lean and Agile Software Development at the 38th ACM/SIGAPP Symposium On Applied Computing), Tallinn, Estonia;PC member;LASD;23;https://lasd.pl;3
-14.5.23;20.5.23;4th Workshop on Gender Equality, Diversity, and Inclusion in Software Engineering, Melbourne, Australia;Workshop co-\ul{chair};GE@ICSE;23;https://conf.researchr.org/home/icse-2023/ge-icse-2023;2
-14.5.23;15.5.23;International Conference on Technical Debt, Melbourne, Australia;PC member;TechDebt;23;https://conf.researchr.org/home/TechDebt-2023;2
-15.7.23;15.7.23;49th Euromicro Conference on Software Engineering and Advanced Applications;Track co-\ul{chair} (Emerging Computing Technologies);SEAA;23;https://www.euromicro.org/Events.php;2
-14.6.23;16.6.23;27th International Conference on Evaluation and Assessment in Software Engineering, Oulu, Finland;Track co-\ul{chair} (Short Papers and Posters);EASE;23;https://conf.researchr.org/home/ease-2023;2
-11.9.23;13.9.23;16th International Conference on the Quality of Information and Communications Technology;PC member \& Track co-\ul{chair} (Journal First and Special Issue \ul{chair});QUATIC;23;https://sites.google.com/view/quatic2023;2
+14.5.23;20.5.23;4th Workshop on Gender Equality, Diversity, and Inclusion in Software Engineering, Melbourne, Australia;Workshop co-\ul{chair};GE@ICSE;23;https://conf.researchr.org/home/icse-2023/ge-icse-2023;3
+14.5.23;15.5.23;International Conference on Technical Debt, Melbourne, Australia;PC member;TechDebt;23;https://conf.researchr.org/home/TechDebt-2023;3
+14.6.23;16.6.23;27th International Conference on Evaluation and Assessment in Software Engineering, Oulu, Finland;Track co-\ul{chair} (Short Papers and Posters);EASE;23;https://conf.researchr.org/home/ease-2023;3
+15.7.23;15.7.23;49th Euromicro Conference on Software Engineering and Advanced Applications;Track co-\ul{chair} (Emerging Computing Technologies);SEAA;23;https://www.euromicro.org/Events.php;3
+17.7.23;20.7.23;17th IEEE International Conference on Service-Oriented System Engineering, Athens, Greece;PC member;SOSE;23;https://ieeesose.com;3
+11.9.23;13.9.23;16th International Conference on the Quality of Information and Communications Technology;PC member \& Track co-\ul{chair} (Journal First and Special Issue \ul{chair});QUATIC;23;https://sites.google.com/view/quatic2023;3
 18.9.23;22.9.23;17th European Conference on Software Architecture;PC member;ECSA;23;https://conf.researchr.org/home/ecsa-2023;2
+2.10.23;3.10.23;23rd IEEE International Working Conference on Source Code Analysis and Manipulation, Bogotà, Colombia;PC member (SCAM 2023 NIER Track);SCAM;23;https://www.ieee-scam.org/2023/;2
 10.10.23;12.10.23;5th International Conference on Microservices;PC member;Microservices;23;https://www.conf-micro.services;2
 23.10.23;27.10.23;17th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement, New Orleans, Louisiana, United States;PC member (Registered Reports);ESEM;23;https://www.esem-conferences.org;3
 24.10.23;26.10.23;10th European Conference On Service-Oriented And Cloud Computing, Larnaca, Cyprus;PC member \& Projects and Industry Track \ul{chair};ESOCC;23;https://cyprusconferences.org/esocc2023/;2
+6.11.23;8.11.23;14th Symposium on Software Performance, Karlsruhe, Germany;PC member;SSP;https://www.performance-symposium.org/2023/;2
 20.11.23;23.11.23;24rd International Conference on Product-Focused Software Process Improvement, Dornbirn, Austria;Program co-\ul{chair};PROFES;23;https://conf.researchr.org/home/profes-2023;2
 26.3.24;29.3.24;31st International Conference on Software Analysis, Evolution and Reengineering, Rovaniemi, Finland;Track co-\ul{chair} (Industrial Track);SANER;24;https://saner2023.must.edu.mo;2
