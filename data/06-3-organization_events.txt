@@ -9,13 +9,13 @@ startofevent;endofevent;event;role;acronym;yearofevent;website;state
 6.12.16;6.12.16;2016 Alpine Software Engineering Workshop: Random-Based Testing, Bolzano, Italy;Organizer;ASEW;16;;3
 22.4.17;26.4.17;1st International Workshop on Monitoring in Large-Scale Software Systems, L'Aquila, Italy;PC member;MOLS;17;;3
 18.5.17;19.5.17;2nd Joint Seminar in Empirical Software Engineering at the University of Innsbruck;Co-organizer;JESE;17;;3
-21.5.17;26.5.17;1st International Workshop on Microservices for Agile software development;Co-organizer;WMSA;17;;3
+21.5.17;26.5.17;1st International Workshop on Microservices for Agile Software Development;Co-organizer;WMSA;17;;3
 6.7.17;6.7.17;8th Workshop on Computer Science Research meets Business, Bolzano, Italy: Data Science, How to Create added Value from Data;Organizing committee member;;17;;3
 3.9.17;6.9.17;1st International Conference on Lean and Agile Software Development, Prague, Czech Republic;PC member;LASD;17;;3
 4.9.17;7.9.17;2017 Summer School on Software Engineering, Bolzano, Italy;Organizing committee member;SESchool;17;;3
 21.9.17;23.9.17;3rd Joint Ontology Workshops, Episode 3: The Tyrolean Autumn of Ontology, Bozen-Bolzano, Italy;Track co-\ul{chair} (Data meets Applied Ontologies);JOWO;17;;3
 29.11.17;1.12.17;18th International Conference on Product-Focused Software Process Improvement, Innsbruck, Austria;PC member (Full Papers) \& Session \ul{chair};PROFES;17;;3
-21.5.18;25.5.18;19th International Conference on Agile Software Development, Porto, Portugal;PC member (Research Papers);XP;18;;3
+21.5.18;25.5.18;19th International Conference on Agile Softwaren Development, Porto, Portugal;PC member (Research Papers);XP;18;;3
 28.8.18;31.8.18;44th Euromicro Conference on Software Engineering and Adv. Applications, Prague, Czech Republic;PC member (Monitoring Large-Scale Software Systems);SEAA;18;;3
 9.9.18;12.9.18;2nd International Conference on Lean and Agile Software Development, Poznań, Poland;PC member;LASD;18;;3
 9.9.18;12.9.18;2018 Summer School on Software Engineering, Bolzano, Italy;Organizing committee member;SESchool;18;;3
@@ -53,17 +53,25 @@ startofevent;endofevent;event;role;acronym;yearofevent;website;state
 21.11.22;24.11.22;23rd International Conference on Product-Focused Software Process Improvement, Jyväskylä, Finland;Track co-\ul{chair} (Doctoral Symposium) \& PC member;PROFES;22;https://www.jyu.fi/it/en/research/scholarly-events/profes2022;3
 13.3.23;17.3.23;20th IEEE International Conference on Software Architecture, l'Aquila, Italy;PC member (Poster track);ICSA;23;https://icsa-conferences.org/2023/;3
 27.3.23;2.4.23;7th International Conference on Lean and Agile Software Development (Track on Lean and Agile Software Development at the 38th ACM/SIGAPP Symposium On Applied Computing), Tallinn, Estonia;PC member;LASD;23;https://lasd.pl;3
-14.5.23;20.5.23;4th Workshop on Gender Equality, Diversity, and Inclusion in Software Engineering, Melbourne, Australia;Workshop co-\ul{chair};GE@ICSE;23;https://conf.researchr.org/home/icse-2023/ge-icse-2023;3
+20.5.23;20.5.23;4th Workshop on Gender Equality, Diversity, and Inclusion in Software Engineering, Melbourne, Australia;Workshop co-\ul{chair};GE@ICSE;23;https://conf.researchr.org/home/icse-2023/ge-icse-2023;3
 14.5.23;15.5.23;International Conference on Technical Debt, Melbourne, Australia;PC member;TechDebt;23;https://conf.researchr.org/home/TechDebt-2023;3
 14.6.23;16.6.23;27th International Conference on Evaluation and Assessment in Software Engineering, Oulu, Finland;Track co-\ul{chair} (Short Papers and Posters);EASE;23;https://conf.researchr.org/home/ease-2023;3
 15.7.23;15.7.23;49th Euromicro Conference on Software Engineering and Advanced Applications;Track co-\ul{chair} (Emerging Computing Technologies);SEAA;23;https://www.euromicro.org/Events.php;3
 17.7.23;20.7.23;17th IEEE International Conference on Service-Oriented System Engineering, Athens, Greece;PC member;SOSE;23;https://ieeesose.com;3
 11.9.23;13.9.23;16th International Conference on the Quality of Information and Communications Technology;PC member \& Track co-\ul{chair} (Journal First and Special Issue \ul{chair});QUATIC;23;https://sites.google.com/view/quatic2023;3
-18.9.23;22.9.23;17th European Conference on Software Architecture;PC member;ECSA;23;https://conf.researchr.org/home/ecsa-2023;2
-2.10.23;3.10.23;23rd IEEE International Working Conference on Source Code Analysis and Manipulation, Bogotà, Colombia;PC member (SCAM 2023 NIER Track);SCAM;23;https://www.ieee-scam.org/2023/;2
-10.10.23;12.10.23;5th International Conference on Microservices;PC member;Microservices;23;https://www.conf-micro.services;2
+18.9.23;22.9.23;17th European Conference on Software Architecture;PC member;ECSA;23;https://conf.researchr.org/home/ecsa-2023;3
+2.10.23;3.10.23;23rd IEEE International Working Conference on Source Code Analysis and Manipulation, Bogotà, Colombia;PC member (SCAM 2023 NIER Track);SCAM;23;https://www.ieee-scam.org/2023/;3
+10.10.23;12.10.23;5th International Conference on Microservices;PC member;Microservices;23;https://www.conf-micro.services;3
 23.10.23;27.10.23;17th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement, New Orleans, Louisiana, United States;PC member (Registered Reports);ESEM;23;https://www.esem-conferences.org;3
-24.10.23;26.10.23;10th European Conference On Service-Oriented And Cloud Computing, Larnaca, Cyprus;PC member \& Projects and Industry Track \ul{chair};ESOCC;23;https://cyprusconferences.org/esocc2023/;2
+24.10.23;26.10.23;10th European Conference On Service-Oriented And Cloud Computing, Larnaca, Cyprus;PC member \& Projects and Industry Track \ul{chair};ESOCC;23;https://cyprusconferences.org/esocc2023/;3
 6.11.23;8.11.23;14th Symposium on Software Performance, Karlsruhe, Germany;PC member;SSP;https://www.performance-symposium.org/2023/;2
 20.11.23;23.11.23;24rd International Conference on Product-Focused Software Process Improvement, Dornbirn, Austria;Program co-\ul{chair};PROFES;23;https://conf.researchr.org/home/profes-2023;2
+13.3.24;17.3.24;1st Workshop on Edge Software Architecture, l'Aquila, Italy;Workshop co-\ul{chair};ESA;24;https://icsa-conferences.org/2023/workshops/;2
 26.3.24;29.3.24;31st International Conference on Software Analysis, Evolution and Reengineering, Rovaniemi, Finland;Track co-\ul{chair} (Industrial Track);SANER;24;https://saner2023.must.edu.mo;2
+8.4.24;12.4.24;8th International Conference on Lean and Agile Software Development (Track on Lean and Agile Software Development at the 39th ACM/SIGAPP Symposium On Applied Computing), Avila, Spain;PC member;LASD;24;https://lasd.pl;2
+24.4.24;25.4.24;16th Software Quality Days Conference, Vienna, Austria;PC member;SWQD;24;https://www.software-quality-days.com;2
+15.4.24;16.4.24;21st International Conference on Mining Software Repositories, Lisbon, Portugal;PC member (Data and Tool Showcase track);MSR;24;https://2024.msrconf.org/track/msr-2024-data-and-tool-showcase-track;2
+20.4.24;20.4.24;5th Workshop on Gender Equality, Diversity, and Inclusion in Software Engineering, Lisbon, Portugal;Workshop co-\ul{chair};GE@ICSE;24;;2
+17.5.24;17.5.24;29th International Conference on Information Society and University Studies, Kaunas, Lithuania;PC member;IVUS;24;;2
+4.6.24;8.6.24;21th IEEE International Conference on Software Architecture, Hyderabad, India;PC member (Poster track);ICSA;24;https://conf.researchr.org/home/icsa-2024;2
+8.7.24;10.7.24;19th International Conference on Software Technologies, Dijon, France;PC member;ICSOFT;24;https://icsoft.scitevents.org;2

@@ -14,7 +14,7 @@ research;18.9.18;Tampere University of Technology, Tampere, Finland;Non-distract
 publicengagement;9.11.18;Wirtschaftsfachoberschule Franz Kafka, Meran, Italy;The faculty of Computer Science of the Free University of Bozen-Bolzano about study opportunities in the area of computer science in Bolzano
 research;16--17.11.18;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;The REUSE Initiative
 research;16--17.11.18;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;Elixir, the hipster language
-publicengagement;10.12.18;Ski Safety Innovation Summit\footnote{\url{https://www.whataventure.com/event/ski-safety-innovation-summit/2018}}, Val Gardena, Italy;Data, algorithms and models for estimating the risk of injury in ski resorts
+publicengagement;10.12.18;Ski Safety Innovation Summit, Val Gardena, Italy;Data, algorithms and models for estimating the risk of injury in ski resorts
 technologytransfer;6.7.19;ASTAT, Bolzano, Italy;Table and Graph Design (together with Ilenia Fronza)
 research;15--16.11.19;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;API fluency
 research;15--16.11.19;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;Raising the Developer Awareness of Critical Code (together with Michael Mairegger)
