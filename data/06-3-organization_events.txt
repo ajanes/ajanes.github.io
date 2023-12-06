@@ -65,7 +65,7 @@ startofevent;endofevent;event;role;acronym;yearofevent;website;state
 23.10.23;27.10.23;17th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement, New Orleans, Louisiana, United States;PC member (Registered Reports);ESEM;23;https://www.esem-conferences.org;3
 24.10.23;26.10.23;10th European Conference On Service-Oriented And Cloud Computing, Larnaca, Cyprus;PC member \& Projects and Industry Track \ul{chair};ESOCC;23;https://cyprusconferences.org/esocc2023/;3
 6.11.23;8.11.23;14th Symposium on Software Performance, Karlsruhe, Germany;PC member;SSP;https://www.performance-symposium.org/2023/;3
-20.11.23;23.11.23;24rd International Conference on Product-Focused Software Process Improvement, Dornbirn, Austria;Program co-\ul{chair};PROFES;23;https://conf.researchr.org/home/profes-2023;2
+11.12.23;13.12.23;24rd International Conference on Product-Focused Software Process Improvement, Dornbirn, Austria;Program co-\ul{chair};PROFES;23;https://conf.researchr.org/home/profes-2023;2
 13.3.24;17.3.24;1st Workshop on Edge Software Architecture, Hyderabad, India (co-located with the 21st IEEE International Conference on Software Architecture);Workshop co-\ul{chair};ESA;24;https://conf.researchr.org/track/icsa-2024/icsa-2024-workshops;2
 26.3.24;29.3.24;31st International Conference on Software Analysis, Evolution and Reengineering, Rovaniemi, Finland;Track co-\ul{chair} (Industrial Track);SANER;24;https://saner2023.must.edu.mo;2
 8.4.24;12.4.24;8th International Conference on Lean and Agile Software Development (Track on Lean and Agile Software Development at the 39th ACM/SIGAPP Symposium On Applied Computing), Avila, Spain;PC member;LASD;24;https://lasd.pl;2
