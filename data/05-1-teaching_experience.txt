@@ -1,17 +1,18 @@
 organization;course;role;isbsc;ismsc;isg;period;ects;state
+unibz;Tools and Techniques for Software Testing;TA;\ding{53};;;'23/24;6;2
 unibz;Contemporary Software Development\footnote{as external lecturer in 2022/23 and 2023/24};L;;\ding{53};;'19/20--'23/24;6;3
-unibz;Software Quality and Metrics\footnote{as external lecturer in 2023/24};L;;\ding{53};;'23/24;6;2
-fhv;Software Engineering\footnote{In English: \textit{Software engineering}};L;\ding{53};;;'23/24;8;2
-fhv;Fachgespräche zum Software Engineering\footnote{In English: \textit{Expert discussions on software engineering}};L;;\ding{53};;'23/24;4;2
-fhv;Grundlagen der Wirtschaftsinformatik\footnote{In English: \textit{Fundamentals of business informatics}};C;;\ding{53};;'23/24;9;2
+unibz;Software Quality and Metrics\footnote{as external lecturer in 2023/24};L;;\ding{53};;'23/24;6;3
+fhv;Software Engineering\footnote{In English: \textit{Software engineering}};L;\ding{53};;;'23/24;8;3
+fhv;Fachgespräche zum Software Engineering\footnote{In English: \textit{Expert discussions on software engineering}};L;;\ding{53};;'23/24;4;3
+fhv;Grundlagen der Wirtschaftsinformatik\footnote{In English: \textit{Fundamentals of business informatics}. Course of 9 ECTS, I taught 1 module of 5.};C;;\ding{53};;'23/24;1½;3
 fhv;Softwareprozesse und -qualität\footnote{In English: \textit{Software processes and quality}};L;\ding{53};;;'23/24;4;2
-fhv;Refactoring und Migration\footnote{In English: \textit{Refactoring and Migration}};L;\ding{53};;;'23/24;4;2
+fhv;Refactoring und Migration\footnote{In English: \textit{Refactoring and Migration}};L;\ding{53};;;'23/24;4;3
 uibk\footnote{University of Innsbruck, Austria};Methods of Software Quality Assurance;L;\ding{53};;;'22/23;3;3
 fhv;System architectures;L;\ding{53};;;'22/23;5;3
 fhv;Enterprise Applikationen\footnote{In English: \textit{Enterprise applications}};C;\ding{53};;;'22/23;10;3
 fhv;Softwareprozesse\footnote{In English: \textit{Software processes}};L;;\ding{53};;'22/23;5;3
 fhv;Architekturen und Sicherheit in verteilten Systemen\footnote{In English: \textit{Architectures and security in distributed systems}};L;;\ding{53};;'22/23;3;3
-fhv;Parallelization and Concurrent Programming;L;;\ding{53};;'22/23;4;3
+fhv;Parallelization and Concurrent Programming\footnote{as external lecturer in 2024};L;;\ding{53};;'22/23--'23/24;4;3
 unibz;Software Development: from the idea to the product\footnote{Taught as a course in the \textit{Studium Generale}, an interdisciplinary study programme available to the general public. See \url{https://www.unibz.it/en/faculties/further-courses/studium-generale/}.};L;;;\ding{53};'20/21;3;3
 unibz;Application Engineering for Business Informatics;L;\ding{53};;;'19/20--'21/22;6;3
 unibz;Systems Engineering;L;\ding{53};;;'19/20;6;3

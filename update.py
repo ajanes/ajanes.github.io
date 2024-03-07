@@ -16,7 +16,6 @@ def fix_latex(text):
     text = re.sub("\\\\url\{.*?\}","", text)
     text = re.sub("\\\\footnote\{.*?\}","", text)
     text = re.sub("\\\\ul\{(.*?)\}",r"\1", text)
-
     return text 
 
 if __name__ == "__main__":
@@ -59,6 +58,7 @@ if __name__ == "__main__":
         for row in reader:  
             if not row["startofproject"].startswith("%"):              
                 expires_at = datetime.datetime.strptime(row["endofproject"], '%d.%m.%y')
+                row["fundingbody"] = fix_latex(row["fundingbody"])
                 row["endofproject_as_ISO_8601"] = expires_at.isoformat()
                 row["rolename"] = "Researcher"
                 row["roletype"] = 3
