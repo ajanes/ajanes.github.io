@@ -67,7 +67,7 @@ startofevent;endofevent;event;role;acronym;yearofevent;website;state
 6.11.23;8.11.23;14th Symposium on Software Performance, Karlsruhe, Germany;PC member;SSP;23;https://www.performance-symposium.org/2023/;3
 11.12.23;13.12.23;24rd International Conference on Product-Focused Software Process Improvement, Dornbirn, Austria;Program co-\ul{chair};PROFES;23;https://conf.researchr.org/home/profes-2023;3
 13.3.24;17.3.24;1st Workshop on Edge Software Architecture, Hyderabad, India (co-located with the 21st IEEE International Conference on Software Architecture);Workshop co-\ul{chair};ESA;24;https://conf.researchr.org/track/icsa-2024/icsa-2024-workshops;2
-12.3.24;12.3.24;7th Workshop on Validation, Analysis and Evolution of Software Tests, Rovaniemi, Finland (co-located with the 31st International Conference on Software Analysis, Evolution and Reengineering);VST;24;https://vstworkshop.github.io/vst2024/;2
+12.3.24;12.3.24;7th Workshop on Validation, Analysis and Evolution of Software Tests, Rovaniemi, Finland (co-located with the 31st International Conference on Software Analysis, Evolution and Reengineering);PC member;VST;24;https://vstworkshop.github.io/vst2024/;2
 12.3.24;15.3.24;31st International Conference on Software Analysis, Evolution and Reengineering, Rovaniemi, Finland;Track co-\ul{chair} (Industrial Track) \& Session \ul{chair};SANER;24;https://saner2023.must.edu.mo;2
 8.4.24;12.4.24;8th International Conference on Lean and Agile Software Development (Track on Lean and Agile Software Development at the 39th ACM/SIGAPP Symposium On Applied Computing), Avila, Spain;PC member;LASD;24;https://lasd.pl;2
 24.4.24;25.4.24;16th Software Quality Days Conference, Vienna, Austria;PC member;SWQD;24;https://www.software-quality-days.com;2
@@ -78,7 +78,7 @@ startofevent;endofevent;event;role;acronym;yearofevent;website;state
 4.6.24;8.6.24;21th IEEE International Conference on Software Architecture, Hyderabad, India;PC member (Poster track);ICSA;24;https://conf.researchr.org/home/icsa-2024;2
 4.6.24;5.6.24;1st Workshop on Edge Software Architecture, Hyderabad, India (co-located with the 21th IEEE International Conference on Software Architecture);ESA;24;https://sites.google.com/view/iedgesoftwarearchitecture/home;2
 8.7.24;10.7.24;19th International Conference on Software Technologies, Dijon, France;PC member;ICSOFT;24;https://icsoft.scitevents.org;2
-17.7.23;20.7.23;18th IEEE International Conference on Service-Oriented System Engineering, Shanghai, China;PC member;SOSE;24;https://ieeesose.com;2
+15.7.24;18.7.24;18th IEEE International Conference on Service-Oriented System Engineering, Shanghai, China;PC member;SOSE;24;https://ieeesose.com;2
 26.8.24;28.8.24;32nd International Conference on Information Systems Development, Gdansk, Poland;PC member (Lean and Agile Software Development and Managing IS Development and Operations tracks);ISD;24;https://isd2024.ug.edu.pl;2
 28.8.24;30.8.24;50th Euromicro Conference on Software Engineering and Advanced Applications, Paris, France;Track co-\ul{chair} (Emerging Computing Technologies);SEAA;24;https://dsd-seaa.com/dsdseaa2024/;2
 2.9.24;6.9.24;18th European Conference on Software Architecture, Luxembourg, Luxembourg;PC member (Doctoral Symposium);ECSA;24;https://conf.researchr.org/home/ecsa-2024;2
