@@ -80,12 +80,22 @@ if __name__ == "__main__":
     projects.sort(key=lambda x: x["endofproject_as_ISO_8601"])
 
     publications = []
-    with open("./data/09-1-publications_book.txt", "r") as f:        
+    with open("./data/09-1-publications_book_authored.txt", "r") as f:        
         reader = csv.DictReader(f, delimiter=";", quotechar='"')        
         for row in reader:          
             if not row["starred"].startswith("%"):              
                 row["type"] = 1
                 row["authors"] = fix_latex(row["authors"])
+                row["titleofpublication"] = fix_latex(row["titleofpublication"])
+                row["doiorwebaddress"] = fix_latex(row["doiorwebaddress"])
+                publications.append(row)
+
+    with open("./data/09-1-publications_book_edited.txt", "r") as f:        
+        reader = csv.DictReader(f, delimiter=";", quotechar='"')        
+        for row in reader:          
+            if not row["starred"].startswith("%"):              
+                row["type"] = 1
+                row["authors"] = fix_latex(row["authors"]) + " (Editors)"
                 row["titleofpublication"] = fix_latex(row["titleofpublication"])
                 row["doiorwebaddress"] = fix_latex(row["doiorwebaddress"])
                 publications.append(row)
