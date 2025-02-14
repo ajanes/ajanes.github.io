@@ -31,4 +31,6 @@ research;5--8.9.22;Tampere University, Tampere, Finland;Technology transfer and 
 publicengagement;18.10.22;Wirtschaftsfachoberschule Franz Kafka, Meran, Italy;Zukunftsperspektiven für Wirtschaftsinformatiker
 research;11.11.22;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;Scalability assessment applied to microservice architectures
 technologytransfer;12.11.22;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;Industry-academia collaborations: experiences and pitfalls
-%research;10.11.23;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;Open Tracing Tools: Overview and Comparison
+research;10.11.23;South Tyrolean Free Software Conference (SFSCon), Bolzano, Italy;Open Tracing Tools: Overview and Comparison
+research;3.6.24;Agile Venture Bolzano, Bolzano, Italy;Rewriting software that has been written over 20 years in 2 weeks. Is that possible?
+research;3.6.24;JointBZTN - Joint Seminars in Computer Science - Bolzano+Trento;Assessing the scalability of microservice architectures
