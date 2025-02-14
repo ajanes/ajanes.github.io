@@ -11,7 +11,7 @@ def fix_latex(text):
     text = text.replace("\\&", "&")
     text = text.replace("\\_", "_")
     text = text.replace("--", "&#8211;")
-    text = text.replace("$^\lambda$", "&lambda;")
+    text = text.replace(r"$^\lambda$", "&lambda;")
     text = text.replace("\\'{c}", "&cacute;")    
     text = re.sub("\\\\url\{.*?\}","", text)
     text = re.sub("\\\\footnote\{.*?\}","", text)
