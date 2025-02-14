@@ -70,6 +70,7 @@ if __name__ == "__main__":
         for row in reader:        
             if not row["organization"].startswith("%"):              
                 row["course"] = fix_latex(row["course"])
+                row["period"] = fix_latex(row["period"])
                 if row["role"].lower().__contains__("l"):
                     row["islecturer"] = True
                 if row["role"].lower().__contains__("ta"):
