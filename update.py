@@ -10,12 +10,12 @@ import re
 def fix_latex(text):
     text = text.replace("\\&", "&")
     text = text.replace("\\_", "_")
-    text = text.replaceAny("--", "&#8211;")
+    text = text.replace("--", "&#8211;")
     text = text.replace(r"$^\lambda$", "&lambda;")
     text = text.replace("\\'{c}", "&cacute;")    
-    text = re.sub("\\\\url\{.*?\}","", text)
-    text = re.sub("\\\\footnote\{.*?\}","", text)
-    text = re.sub("\\\\ul\{(.*?)\}",r"\1", text)
+    text = re.sub(r"\\url\{.*?\}", "", text)
+    text = re.sub(r"\\footnote\{.*?\}", "", text)
+    text = re.sub(r"\\ul\{(.*?)\}", r"\1", text)
     return text 
 
 if __name__ == "__main__":
@@ -30,8 +30,8 @@ if __name__ == "__main__":
                 expires_at = datetime.datetime.strptime(row["endofevent"], '%d.%m.%y')
                 row["endofevent_as_ISO_8601"] = expires_at.isoformat()
                 row["role"] = fix_latex(row["role"])
-                roles_without_brackets = re.sub("\(.*?\)","", row["role"])
-                roles = re.split(', | \& ', roles_without_brackets)
+                roles_without_brackets = re.sub(r"\(.*?\)", "", row["role"])
+                roles = re.split(r', |\& ', roles_without_brackets)
                 row["roles"] = roles
                 row["event"] = fix_latex(row["event"])
                 events.append(row)
@@ -44,7 +44,7 @@ if __name__ == "__main__":
                 expires_at = datetime.datetime.strptime(row["endofproject"], '%d.%m.%y')
                 row["endofproject_as_ISO_8601"] = expires_at.isoformat()
                 row["fundingbody"] = fix_latex(row["fundingbody"])
-                row["fundingbody"] = re.sub("\(.*?\)","", row["fundingbody"])
+                row["fundingbody"] = re.sub(r"\(.*?\)", "", row["fundingbody"]).strip()
                 if row["awardholders"].lower().__contains__(",") or row["awardholders"].lower().__contains__(" and "):
                     row["rolename"] = "Co-Investigator"
                     row["roletype"] = 2
