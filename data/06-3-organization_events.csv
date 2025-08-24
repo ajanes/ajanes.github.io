@@ -1,6 +1,7 @@
 startofevent;endofevent;event;role;acronym;yearofevent;website
 7.9.26;11.9.26;20th European Conference on Software Architecture, Bolzano, Italy;\ul{General co-chair};ECSA;26;https://conf.researchr.org/home/ecsa-2026
 10.4.26;19.4.26;48th International Conference on Software Engineering, Rio de Janeiro, Brazil;PC member (research track);ICSE;26;http://www.icse-conferences.org
+23.3.26;27.3.26;41th ACM/SIGAPP Symposium On Applied Computing, Sicily, Italy;PC member (Lean and Agile Software Development track);SAC;26;https://lasd.pl
 1.12.25;3.12.25;26rd International Conference on Product-Focused Software Process Improvement, Salerno, Italy;PC member;PROFES;25;https://conf.researchr.org/home/profes-2025
 21.10.25;24.10.25;36th IEEE International Symposium on Software Reliability Engineering, São Paulo, Brazil;PC member (research track);ISSRE;25;https://issre.github.io/2025/
 28.9.25;3.10.25;19th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement, Honolulu, Hawaii, USA;PC member (Research projects track) and Track co-\ul{chair} (Industry, Government, and Community);ESEM;25;https://www.esem-conferences.org
@@ -15,7 +16,7 @@ startofevent;endofevent;event;role;acronym;yearofevent;website
 28.4.25;29.4.25;22nd International Conference on Mining Software Repositories, Ottawa, Ontario, Canada;PC member (Data and Tool Showcase track);MSR;25;https://2025.msrconf.org/track/msr-2025-data-and-tool-showcase-track
 27.4.25;3.5.25;47th International Conference on Software Engineering, Ottawa, Ontario, Canada;PC member;ICSE;25;
 20.2.25;21.2.25;12th European Conference On Service-Oriented And Cloud Computing, Bolzano, Italy;\ul{General co-chair};ESOCC;25;https://conf.researchr.org/home/esocc-2025
-31.3.25;4.4.24;40th ACM/SIGAPP Symposium On Applied Computing, Sicily, Italy;PC member;SAC;25;https://sites.google.com/ime.usp.br/acmsac2025cctrack
+31.3.25;4.4.24;40th ACM/SIGAPP Symposium On Applied Computing, Sicily, Italy;PC member (Cloud Continuum track);SAC;25;https://sites.google.com/ime.usp.br/acmsac2025cctrack
 2.12.24;4.12.24;25rd International Conference on Product-Focused Software Process Improvement, Tartu, Estonia;PC member;PROFES;24;https://conf.researchr.org/home/profes-2024
 6.11.24;7.11.24;15th Symposium on Software Performance, Linz, Austria;PC member;SSP;24;https://www.performance-symposium.org
 20.10.24;25.10.24;18th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement, Barcelona, Spain;PC member (Technical Papers);ESEM;24;https://www.esem-conferences.org
